@@ -27,3 +27,19 @@
 // console.log("value of var3 is", var3);
 // console.log(mynewarray);
 
+
+
+
+// const webSite = ["facebook", "google", "youtube", "twitter", "instagram","amazon","flipkart"];
+// // let var1 = webSite[2];
+// // let var2 = webSite[1];
+// // console.log(var1);
+// // console.log(var2);
+
+// let[ , var1, var2, ...newarray] = webSite;
+// webSite.push("linkedin");
+// console.log(webSite);
+// console.log(var1);
+// console.log(var2);
+// console.log("***********new array starts from here**************");
+// console.log(newarray);

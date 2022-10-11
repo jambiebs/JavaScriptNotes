@@ -61,3 +61,53 @@
 // user[key] = 24246120;
 // console.log(user);
 
+
+
+
+
+
+
+// try yourself
+
+
+
+// create an array
+// print to console
+// access using key properties
+// add an array to object properties
+// add a new key value pair
+// access using dot notation and bracket notation
+// add a properties to object (properties should be of two or three words)
+// define the difference between dot notaion and bracket notation
+// add a new key value pair using bracket notation
+// 
+const key = "email";
+const website = {
+    youtube: "a video sharing platform",
+    google: "world's most popular search engine",
+    instagram: "child company of meta, a short video sharing platform",
+    facebook: "world's most popular social media network",
+    // "best ecommerce website's name": "amazon, flipkart, myntra, snapdeal, ajio"
+
+}
+// console.log(website);
+// console.log(website.instagram);
+// website.flipkart = "an ecommerce website";
+// console.log(website);
+// console.log(website.flipkart);
+// console.log(website);
+// console.log(website["best ecommerce website's name"]);
+// website["best search engine"] = "google, yahoo, duckduckgo, bing";
+// console.log(website["best search engine"]);
+// console.log(website);
+// website[key] = "jambiebs@gmail.com";
+// console.log(website);
+
+
+
+// error encountered
+
+// white adding value pair to the object i noticed that if i add and "string key to the object" and later add any value pair to the object outside the block wether using .notation or []notation the added value doesn't print to console and also not showing any error and if i try to access that value individually it show the output.
+
+
+

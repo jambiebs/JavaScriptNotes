@@ -35,3 +35,19 @@
 // console.log(animal2);
 
 
+// const obj = [
+//     nameof = "md jamal",
+//     age = 27,
+//     gender = "male",
+//     ethnicity = "dark",
+//     height = "5'8\"",
+// ]
+// for(let keys of obj){
+//     console.log(keys);
+// }
+// for(let key in obj){
+//     console.log(obj[key]);
+// }
+// for(let i = 0; i<=obj.length-1; i++){
+//     console.log(obj[i]);
+// }
