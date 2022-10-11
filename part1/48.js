@@ -42,3 +42,36 @@
 //     endMsg();
 // }
 // multi();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function sum(x){
+    function(x, y){
+        return x + y;
+    }
+}
+
+let num = 5;
+let num1 = 10;
+let add = num, num2;
+console.log(sum(add));

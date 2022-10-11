@@ -33,3 +33,30 @@
 // // for(let key in giridih){
 //   console.log(`${key} : ${giridih[key]}`);
 // }
+
+
+
+
+
+// try yourself
+
+
+
+
+// const district = {
+//     jharkhand: "Giridih",
+//     maharashtra: "Pune",
+//     Gujrat: "ahamdabad",
+//     Bihar: "mughalsarai",
+//     "U.P": "Paryagraj"
+// }
+
+// for(let dist in district){
+//     console.log(dist, ":", district[dist]);
+// }
+// let{jharkhand,maharashtra,...restOther} = district;
+// // console.log(jharkhand);
+// // console.log(maharashtra);
+// console.log(restOther);
+
+
