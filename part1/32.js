@@ -34,3 +34,42 @@
 //     i++;
 // }
 // console.log(fruits2);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Date = new Date();
+// console.log(Date);
+
+// const fruit1 = ["item1", "item2", "item3", "item4"];
+// const fruit2 = [];
+// let i = 0;
+// while(i<fruit1.length){
+//     fruit2.push(fruit1[i].toUpperCase());
+//     i++;
+// }
+// console.log(fruit2);

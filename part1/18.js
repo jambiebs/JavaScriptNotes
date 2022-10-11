@@ -79,18 +79,47 @@
 
 
 
-let tempInDegree = 4;
+// let tempInDegree = 4;
 
-if(tempInDegree > 40){
-    console.log("too hot");
-}else if(tempInDegree > 30){
-    console.log("lets go for swim");
-}else if(tempInDegree > 20){
-    console.log("weather is cool");
-}else if(tempInDegree > 10){
-    console.log("it is very cold outside");
-}else{
-    console.log("extremely cold");
-}
+// if(tempInDegree > 40){
+//     console.log("too hot");
+// }else if(tempInDegree > 30){
+//     console.log("lets go for swim");
+// }else if(tempInDegree > 20){
+//     console.log("weather is cool");
+// }else if(tempInDegree > 10){
+//     console.log("it is very cold outside");
+// }else{
+//     console.log("extremely cold");
+// }
 
-console.log("hello");
+// console.log("hello");
+
+
+
+
+
+
+
+
+
+
+
+
+// let temp = 102;
+// if(temp<=10){
+//     console.log("extremly cold", `temp is ${temp} degree celcius`);
+// }
+// else if(temp>10 && temp<=20){
+//     console.log("its cold outside", `temp is ${temp} degree celcius`);
+// }
+// else if (temp>20 && temp<=30){
+//     console.log("weather is good", `temp is ${temp} degree celcius`);
+// }
+// else if(temp>30 && temp<=40){
+//     console.log("it's hot outside", `temp is ${temp} degree celcius`);
+// }
+
+// else{
+//     console.log("it's extremly hot outside", `temp is ${temp} degree celcius`);
+// }

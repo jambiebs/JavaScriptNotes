@@ -30,17 +30,24 @@
 // add item5 to array2 by using all three method except copy
 
 
+// const array1 = ["item1", "item2"];
+// const array2 = ["item3","item4"];
+// const cloneArray = array1.slice(0); //cloning of array using slice method
+// console.log(cloneArray);
+// const cloneArray2 = [].concat(array1); //cloning of array using concat method
+// console.log(cloneArray2);
+// const cloneArray3 = [...array1]; //clonig of array using spread method
+// console.log(cloneArray3); 
 
+// cloning of more than one array
 
-// let array1 = ["item1", "item2"]
-// let array3 = ["item3", "item4"]
-// 1st method
-// let array2 = ["item1", "item2"]
-// 2nd method
-// let array2 = array1.slice(0).concat(array3,["item5"]);
-// let array2 = [].concat(array1, array3,["item5"]);
-// let array2 = [...array1, ...array3,"item5"];
-
-// console.log(array2);
-
-
+// const array1 = ["item1", "item2"];
+// const array2 = ["item3", "item4"];
+// const array3 = ["item5", "item6"];
+// const cloneArray = array1.slice(0).concat(array2, array3, ["item7"]); //cloning of array using slice method
+// console.log(cloneArray);
+// const cloneArray2 = [].concat(array1, array2, array3, ["item7"]); //cloning of array using concat method
+// console.log(cloneArray2);
+// const cloneArray3 = [...array1, ...array2, ...array3, "item7"]; //clonig of array using spread method
+// console.log(cloneArray3);
+// console.log("WELL DONE JAMAL! YOU ARE GENIUS!");

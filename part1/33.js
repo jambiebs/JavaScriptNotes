@@ -39,3 +39,35 @@
 // for(let i = 0; i<fruits.length; i++){
 // console.log(fruits[i]);
 // }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// let date = new Date();
+// console.log(date);
+
+// const array1 = ["item1", "item2", "item3", "item4"];
+// const array2 = [];
+// for(let array of array1){
+//     array2.push(array.toUpperCase());
+// }
+// console.log(array2);

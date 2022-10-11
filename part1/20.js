@@ -10,8 +10,27 @@
 // }
 // console.log(`current value of i is ${i}`);
 // console.log("hello");
-let i = 0;
-while(i<=50){
-    console.log(i);
-    i++;
-}
+// let i = 0;
+// while(i<=50){
+//     console.log(i);
+//     i++;
+// }
+
+
+
+
+
+
+// custom code by --jamal
+
+
+
+// try yourself
+
+
+
+// let i = 0;
+// while(i<=100){
+//     console.log(i);
+//     i++
+// }

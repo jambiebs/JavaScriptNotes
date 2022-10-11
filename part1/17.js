@@ -23,3 +23,25 @@
 //         alert("wrong password!");
 //     }
 // }
+
+
+
+
+
+// let userId = "jambiebs";
+// let password = 24246120;
+// let userguess1 = prompt("enter your username");
+// let userguess2 = +prompt("enter your password");
+// if(userguess1 === userId && userguess2 === password){
+//     alert("login success!");
+// }
+// else{
+//     if(userguess1 !== userId){
+//         console.log("wrong UserId");
+//     }
+//     else{
+//         if(userguess2 !== password){
+//             console.log("wrong password!");
+//         }
+//     }
+// }

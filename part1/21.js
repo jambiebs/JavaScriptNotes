@@ -16,9 +16,10 @@ let num = 100;
 // console.log(total);
 
 // CUSTOM CODE BY --JAMAL
-
-// let i = 2;
+// below code doesn't hang the pc
+// let i = 0;
 // while (i <= 20){
-//     console.log(i);
-//     i = i + 2;
+    // console.log(i);
+    // i = i + 2;
 // }
+

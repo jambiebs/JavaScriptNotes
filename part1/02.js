@@ -1,4 +1,4 @@
-"use strict";
+// "use strict";
 // intro to variables
 
 // variables can store some information
@@ -7,13 +7,34 @@
 
 // declare a variable 
 
-var firstName = "Harshit";
+// var firstName = "Harshit";
 
 // use a variable 
-console.log(firstName);
+// console.log(firstName);
 
 // change value 
 
-firstName = "Mohit";
+// firstName = "Mohit";
 
-console.log(firstName);
+// console.log(firstName);
+
+
+
+
+// custom code by --jamal
+
+
+
+// practice yourself
+
+// declare a variable
+// print to console
+// change the value of variable
+//print to console
+
+
+
+// var userName = "jambiebs";
+// console.log(userName);
+// userName = "jamalpcm";
+// console.log(userName);

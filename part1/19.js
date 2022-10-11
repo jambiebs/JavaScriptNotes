@@ -24,30 +24,58 @@
 // }
 
 
-let day = 9;
+// let day = 9;
 
-switch(day){
-    case 0:
-        console.log("Sunday");
-        break; 
-    case 1:
-        console.log("Monday");
-        break;
-    case 2:
-        console.log("Tuesday");
-        break;
-    case 3:
-        console.log("Wednesday");
-        break;
-    case 4:
-        console.log("Thrusday");
-        break;
-    case 5:
-        console.log("Friday");
-        break;
-    case 6:
-        console.log("Saturday");
-        break;
-    default:
-        console.log("Invalid Day");
-}
+// switch (day) {
+//     case 0:
+//         console.log("Sunday");
+//         break;
+//     case 1:
+//         console.log("Monday");
+//         break;
+//     case 2:
+//         console.log("Tuesday");
+//         break;
+//     case 3:
+//         console.log("Wednesday");
+//         break;
+//     case 4:
+//         console.log("Thrusday");
+//         break;
+//     case 5:
+//         console.log("Friday");
+//         break;
+//     case 6:
+//         console.log("Saturday");
+//         break;
+//     default:
+//         console.log("Invalid Day");
+// }
+
+
+
+
+
+
+
+
+
+
+// let rollNo = +prompt("enter your roll no");
+
+// switch (rollNo) {
+//     case 340:
+//         console.log({
+//             name: "md jamaluddin ansari",
+//             age: 27
+//         });
+//         break;
+//     case 320:
+//         console.log({
+//             name: "unknown",
+//             age: 22
+//         });
+//         break;
+//         default:
+//             console.log("Roll no not found");
+// }

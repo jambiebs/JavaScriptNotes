@@ -2,15 +2,17 @@
 
 // array shift unshift 
 
-// let fruits = ["apple", "mango", "grapes"];
-// console.log(fruits);
+let fruits = ["apple", "mango", "grapes"];
+console.log(fruits);
 // push 
-// fruits.push("banana");
-// console.log(fruits);
+let pushedFruits = fruits.push("banana");
+console.log(fruits);
+console.log(`pushed fruit is ${pushedFruits}`);
+
 // pop 
-// let poppedFruit = fruits.pop();
-// console.log(fruits);
-// console.log("popped fruits is", poppedFruit);
+let poppedFruit = fruits.pop();
+console.log(fruits);
+console.log("popped fruits is", poppedFruit);
 
 // unshift 
 // fruits.unshift("banana");

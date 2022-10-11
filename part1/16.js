@@ -26,14 +26,14 @@
 
 // my custom code --jamal
 
-// let user = "administrator";
-// let password = "24246120"
-// if(user === "administrator" && password === "24246120"){
-//     alert("login success");
-// }
-// else{
-//     alert("authentication failed");
-// }
+let user = "admejfiodinistrator";
+let password = "2424655120"
+if(user === "administrator" && password === "24246120"){
+    alert("login success");
+}
+else{
+    alert("authentication failed");
+}
 // let user = "jamald";
 // let pass = "24246120";
 // let login = user === "jamal" && pass === "24246120" ? "welcome" : "failed";
