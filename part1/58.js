@@ -1,4 +1,6 @@
 // filter method 
+// it returns one out of the two results => 1.true values according to the applied logic 2.false values according to the applied logic
+// returning one result dosen't mean that it will only return only one element it will return all the true or false result matching with the logic. see examples below:-
 
 // const numbers = [1,3,2,6,4,8];
 
