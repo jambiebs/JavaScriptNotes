@@ -53,3 +53,24 @@
 // }
 // let num1 = addAll(54654,465465,46546,8774,8,464,44,8,84,46464,5646,4646,4966,44,46,46,46,46,46,4,867,87,8,8,654,6,8,8,8,7,98,6);
 // console.log(num1);
+
+
+
+// practice
+
+
+// create a function to add multiple numbers
+
+function addAll(a,b,...c){
+    total = 0;
+    for(let value of [a,b,...c]){
+        total = total + value;
+    }
+    return total;
+}
+
+let x = 10;
+let y = 20;
+let [...z] = [20,20,30,10];
+let sum = addAll(x,y,...z);
+console.log(sum);

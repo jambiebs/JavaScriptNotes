@@ -1,4 +1,6 @@
+// for each method ( it will take number in first param, and index in second praram, and perform any function you define accordingly)
 // important array methods 
+
 
 //  const numbers = [4,2,5,8];
 
