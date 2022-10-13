@@ -65,13 +65,22 @@
 
 
 
-function sum(x){
-    function(x, y){
-        return x + y;
-    }
-}
+// function sum(){
+//     function sum1(x, y){
+//         return x + y;
+//     }
+//     console.log("msg from main function");
+//     console.log(sum1(num, num1));
+// }
 
-let num = 5;
-let num1 = 10;
-let add = num, num2;
-console.log(sum(add));
+// let num = 5;
+// let num1 = 10;
+// let add = (num, num1)
+// sum(num);
+
+
+
+
+
+
+// not satisfied with this topic's learning need to do more research

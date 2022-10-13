@@ -41,3 +41,33 @@
 // }
 // const sum = sofn(8,4,8);
 // console.log(sum);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// try yourself
+
+
+function addTwo(x, y) {
+    if (typeof y === "undefined") {     // putting quation mark in undefined is must otherwise output will NaN
+        y = 0;
+    }
+    return x + y;
+}
+let mum = 5;
+let mum1;
+let z = addTwo(mum, mum1);              // remember this method very important already forgot two times
+console.log(z);
