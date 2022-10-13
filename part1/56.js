@@ -1,75 +1,123 @@
-// for each method ( it will take number in first param, and index in second praram, and perform any function you define accordingly)
-// important array methods 
+// // forEach method ( it will take number in first param, and index in second praram, and perform any function you define accordingly)
+// // important array methods 
 
 
-//  const numbers = [4,2,5,8];
+// //  const numbers = [4,2,5,8];
 
-// function myFunc(number, index){
-//     console.log(`index is ${index} number is ${number}`);
-// }
+// // function myFunc(number, index){
+// //     console.log(`index is ${index} number is ${number}`);
+// // }
 
-// numbers.forEach(function(number,index){
-//     console.log(`index is ${index} number is ${number}`);
-// });
+// // numbers.forEach(function(number,index){
+// //     console.log(`index is ${index} number is ${number}`);
+// // });
 
-// numbers.forEach(function(number, index){
-//     console.log(number*3, index);
-// })
+// // numbers.forEach(function(number, index){
+// //     console.log(number*3, index);
+// // })
+
+// // const users = [
+// //     {firstName: "harshit", age: 23},
+// //     {firstName: "mohit", age: 21},
+// //     {firstName: "nitish", age: 22},
+// //     {firstName: "garima", age: 20},
+// // ]
+
+// // users.forEach(function(user){
+// //     console.log(user.firstName);
+// // });
+
+// // users.forEach((user, index)=>{
+// //     console.log(user.firstName, index);
+// // })
+
+// // for(let user of users){
+// //     console.log(user.firstName);
+// // }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// // custom code by --jamal
+
+
+
+// // practice
+
+// // foreachloop
+
+const numbers = [8, 10, 56, 78, 16, 56, 489];
+
+function number(x, y) {
+    console.log(`${x}[${y}]`);
+}
+
+let x = numbers.forEach(number);
+let y = numbers.map(number);  // both function same only difference is that map create a new array and forEach doesn't
+console.log(Array.isArray(x));       //false
+console.log(Array.isArray(y));      // true
+
+// // traditional methods
+// // const numbers = [8, 10, 56, 78, 16, 56, 489];
+
+// // function number(x, y) {
+// //     console.log(`${x}[${y}]`);
+// // }
+// // for (let i = 0; i<numbers.length; i++){
+// //     console.log("number is", numbers[i], "and index is", i);
+// // }
+
+
+// // forEach on objects
+
+// // const users = [
+// //     { name: "jamal", id: 450 },
+// //     { name: "ajay", id: 480 },
+// //     { name: "vijay", id: 798 },
+// //     { name: "manoj", id: 752 }
+// // ]
+
+// // function nameId(x, y){
+// //     console.log("name is",x.name,"& Id is", x.id);
+// // }
+// // users.forEach(nameId);
+
+// // traditional methods
 
 // const users = [
-//     {firstName: "harshit", age: 23},
-//     {firstName: "mohit", age: 21},
-//     {firstName: "nitish", age: 22},
-//     {firstName: "garima", age: 20},
-// ]
+//         { name: "jamal", id: 450 },
+//         { name: "ajay", id: 480 },
+//         { name: "vijay", id: 798 },
+//         { name: "manoj", id: 752 }
+//     ]
 
-// users.forEach(function(user){
-//     console.log(user.firstName);
-// });
-
-// users.forEach((user, index)=>{
-//     console.log(user.firstName, index);
-// })
-
-// for(let user of users){
-//     console.log(user.firstName);
-// }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// custom code by --jamal
-
-
-
-// self homework
-
-
-
+//     for(let i = 0; i<users.length; i++){
+//         console.log("name:",users[i].name, ",", "index:", i);
+//     }
