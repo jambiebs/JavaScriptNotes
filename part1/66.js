@@ -20,3 +20,19 @@ const items = ['item1', 'item2', 'item3'];
 // const firstName = "harshit";
 // console.log(firstName.length);
 // console.log(firstName[2]);
+
+
+
+
+
+// practice
+const itemz = ["item1", "item2", "item3"];
+
+for(let item of itemz){
+    console.log(item);
+}
+
+const alpha = "abcdefghijklmnopqrstuvwxyz";
+for(let char of alpha){
+    console.log(char);
+}

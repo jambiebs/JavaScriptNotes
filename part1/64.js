@@ -7,3 +7,6 @@
 const myArray = [1,2,3,4,5,6,7,8];
 myArray.fill(0,2,5);
 console.log(myArray);
+const fiiarray = myArray.fill(8).fill("hello");
+console.log(fiiarray);
+console.log(myArray);    // this method change the main array

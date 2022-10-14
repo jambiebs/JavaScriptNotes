@@ -47,19 +47,33 @@
 //     console.log(key, value)
 // }
 
-const person1 = {
-    id: 1,
-    firstName: "harshit"
-}
-const person2 = {
-    id: 2,
-    firstName: "harshta"
-}
+// const person1 = {
+//     id: 1,
+//     firstName: "harshit"
+// }
+// const person2 = {
+//     id: 2,
+//     firstName: "harshta"
+// }
 
-const extraInfo = new Map();
-extraInfo.set(person1, {age: 8, gender: "male"});
-extraInfo.set(person2, {age: 9, gender: "female"});
+// const extraInfo = new Map();
+// extraInfo.set(person1, {age: 8, gender: "male"});
+// extraInfo.set(person2, {age: 9, gender: "female"});
 // console.log(userInfo);
-console.log(person1.id);
-console.log(extraInfo.get(person1).gender);
-console.log(extraInfo.get(person2).gender);
+// console.log(person1.id);
+// console.log(extraInfo.get(person1).gender);
+// console.log(extraInfo.get(person2).gender);
+
+
+
+// practice
+
+// map is and 2D array and set is 1D array
+// 2D means it can store any key value pair unlike set
+// it is an ordered array while set's arrangment is not guaranteed
+// it uses element.set propeties to add new key pair while set uses element.add properties to add new value
+
+// const anything = [1,2,3,4,5,6,45];
+const anyThing = new Map();    // M should be in Map to work properly
+anyThing.set({420 : "hello"},"onetowthtee");
+console.log(anyThing);

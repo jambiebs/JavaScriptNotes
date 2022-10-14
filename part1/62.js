@@ -1,6 +1,6 @@
 // every method
 // const numbers = [2,4,6,9,10];
-
+// every method is used to check all the value of an element if it meets the condition or not and return boolean
 
 // const ans = numbers.every((number)=>number%2===0);
 
@@ -15,3 +15,40 @@ const userCart = [
 
 const ans = userCart.every((cartItem)=>cartItem.price < 30000);
 console.log(ans);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// practice
+
+
+const numbers = [42,82,45,66,44];
+const check = numbers.every((numbers)=>numbers%2===0);
+console.log(check);
+const fnd = numbers.find((numbers)=>numbers%2!==0);
+console.log(fnd);
+
+
+
+
+// till now what methods i learn
+// forEach
+// map
+// reduce
+// filter
+// sort
+// every
+// find
