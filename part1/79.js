@@ -1,15 +1,15 @@
 const userMethods = {
-    about : function(){
+    about: function () {
         return `${this.firstName} is ${this.age} years old.`;
     },
-    is18 : function(){
+    is18: function () {
         return this.age >= 18;
     },
-    sing: function(){
+    sing: function () {
         return 'toon na na na la la ';
     }
 }
-function createUser(firstName, lastName, email, age, address){
+function createUser(firstName, lastName, email, age, address) {
     const user = Object.create(userMethods);// {}
     user.firstName = firstName;
     user.lastName = lastName;

@@ -56,12 +56,13 @@ if(jamal.has({hello:"world"})){  // here you can see that it cannot store a key 
 // finding the length of an array inside set
 // to find the length of the set array you have to run for...of loop but first declare let length with any variable name and set the value to 0. and in for...of loop add length++ so that on every loop the length increases by 1 till the final loop and thus we get the length of array.
 
-// const randomNum = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19];
-// const jamal1 = new Set(randomNum);
-// jamal1.add(20);
-// let length = 0;
-// for(let element of jamal1){   
-//     length++;
-//     console.log(element);
-// }
-// console.log(length);
+const randomNum = [1,2,2,3,4,5,5,6,7,8,9,9,10,11,11,11,12,13,14,14,15,16,16,16,17,18,18,18,19];
+const jamal1 = new Set(randomNum);
+console.log(jamal1);   //just by using set method you can filter duplicate and get an array of unique numbers
+jamal1.add(20);
+let length = 0;
+for(let element of jamal1){   
+    length++;
+    console.log(element);
+}
+console.log(length);
