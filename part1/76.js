@@ -1,3 +1,4 @@
+// making a function inside object but not inside a key pair value
 // const user1 = {
 //     firstName : "harshit",
 //     age: 8,
@@ -16,4 +17,40 @@
 
 
 
-user1.about();
+// user1.about();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// try yourself
+
+const user1 = {
+    firstName: "jamal",
+    lastName: "uddin",
+    age: 27,  // using this comma is necessary 
+    about() {
+        console.log(`user's name is ${this.firstName}${this.lastName} and age is ${this.age}`);
+    }
+}
+
+const user2 = {
+    firstName: "jamal",
+    lastName: "uddin",
+    age: 27,  // using this comma is necessary 
+    about: function() {
+        console.log(`user's name is ${this.firstName}${this.lastName} and age is ${this.age}`);
+    }
+}
+
+user1.about(); // both will give the same output and works same
+user2.about(); // both will give the same output and works same
