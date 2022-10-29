@@ -79,3 +79,26 @@
 //         default:
 //             console.log("Roll no not found");
 // }
+
+
+const empno = 566;
+switch(empno){
+    case 0:
+        result = `owner`;
+        break;
+    case 1:
+        result = `vivek`;
+        break;
+    case 2:
+        result = `ajay`;
+        break;
+    case 3:
+        result = `jamal`;
+        break;
+    case 4:
+        result = `new employee`;
+        break;
+    default:
+        result = `not found`;
+}
+console.log(result);

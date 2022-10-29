@@ -45,3 +45,32 @@
 //         }
 //     }
 // }
+
+
+
+
+
+
+
+
+
+
+
+let username = "jambiebs";
+let pass = 24246120;
+let userinput = "jambiebs@gmail.com"
+let passinput = 24246120;
+if(userinput === username && passinput === pass){
+    result = `login success`
+}else{
+    if(userinput !== username && passinput !== pass){
+        result = `wrong username and password`;
+    }else{
+        if(userinput !== username){
+            result = `wrong username`;
+        }else{
+            result = ` worng password`;
+        }
+    }
+}
+console.log(result);

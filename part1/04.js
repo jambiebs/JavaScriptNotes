@@ -25,3 +25,6 @@ console.log(firstName);
 // let userName = 'jambiebs';
 // userName = 'jamalgrd';
 // console.log(userName);
+ let aloo = "chips";
+ aloo = "lays";
+ console.log(aloo);

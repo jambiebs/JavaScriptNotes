@@ -24,5 +24,16 @@
 
 
 
-let userName = "md jamaluddin ansari";
-console.log(userName[19]);
+// let userName = "md jamaluddin ansari";
+// console.log(userName[19]);
+
+// try yourself
+
+const userName = "jambiebs";
+console.log(userName[1]);  
+for(let index of userName){
+    console.log(index);
+}
+for(let index in userName){
+    console.log(index);
+}

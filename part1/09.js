@@ -29,3 +29,16 @@
 // xy = +x + +y;
 // console.log(typeof xy);
 // console.log(xy);
+
+
+// try yourself
+
+const string1 = "hellow";
+const string2 = "world!";
+const x = string1 + " " + string2;
+console.log(x);
+
+const number1 = +"78";  // using + sign converts the string to number
+const number2 = +"6";
+const addNum = number1 + number2;
+console.log(addNum);

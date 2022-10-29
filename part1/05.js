@@ -30,3 +30,5 @@ console.log(pi);
 
 const myName = "md jamaluddin ansari"
 console.log(myName);
+const XyzAbc = "last three and first three letter of english alphabet";
+console.log(XyzAbc);

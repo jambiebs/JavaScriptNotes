@@ -87,3 +87,22 @@
 // symbole type
 
 // not taught will cover later
+
+// try yourself
+
+const x = ["a", "b", "c", "d"];
+const y = "why";
+const z = 26;
+const abc = {
+    a: 1,
+    b: 2,
+    c: 3,
+    d: 4
+};
+console.log(typeof x);
+console.log(typeof y);
+console.log(typeof z);
+console.log(typeof abc);
+console.log("**********check if a variable is an array or not;**************");
+console.log(Array.isArray(x));
+console.log(Array.isArray(abc));

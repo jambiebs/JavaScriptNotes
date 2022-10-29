@@ -22,3 +22,26 @@
 
 // convention 
 // start with small letter and use camelCase 
+
+
+
+
+
+// try yourself 
+
+
+const nameOf = "jamal";
+const username = "jambiebs";
+const _user = "Md Jamal";
+let x = [nameOf, username,_user];
+console.log(x);
+
+// you can only use underscore or numer(not in first place ) to decelare a variable;
+
+const chutiya = "bablu";
+const harami = "wahid";
+const chamdakhor = "rasid";
+const sharif = "sonu";
+const chhtpatiya = "sajad";
+let xyz = [chutiya, harami, chamdakhor, sharif,chhtpatiya];
+console.log(xyz);

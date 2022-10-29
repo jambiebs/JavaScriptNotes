@@ -40,3 +40,20 @@
 // else{
 //     console.log("drink coffee");
 // }
+
+// ternery operator is vary handy when there is only two condition
+// make a program where a number will be defined as odd or even
+const num = 65;
+const oddEven = num%2===0 ? "Even" : "Odd";
+console.log(oddEven);
+
+
+const income = 8054545;
+if(income<=500000){
+ result = `you can apply for ration card, your annual income is less than 5 lakh`;   
+}else if(income<800000){
+    result = `you cannot apply for ration card, your annual income is more than 5 lakh, but you can apply for yellow card`;
+}else{
+    result = `you are not eligible to apply for any cards, please pay your income tax to earliest to avoid IT raid.`
+}
+console.log(result);

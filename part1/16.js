@@ -28,7 +28,7 @@
 
 let user = "admejfiodinistrator";
 let password = "2424655120"
-if(user === "administrator" && password === "24246120"){
+if(user === "administrator" && password === "24246120"){ // this && operator can be used with if bt not with if..else
     alert("login success");
 }
 else{

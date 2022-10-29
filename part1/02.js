@@ -38,3 +38,12 @@
 // console.log(userName);
 // userName = "jamalpcm";
 // console.log(userName);
+
+
+let amount = 200;
+// amount = 250;
+
+// you can change the value of a variable in let and var but you cannot change the value of const;
+
+amount = 4000;
+console.log(amount);

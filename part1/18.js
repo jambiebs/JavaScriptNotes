@@ -123,3 +123,30 @@
 // else{
 //     console.log("it's extremly hot outside", `temp is ${temp} degree celcius`);
 // }
+
+
+
+// else if
+
+// buying menu
+// burger = 100
+// pizz = 200
+// chicken biryani = 300
+// mutton biryani = 400
+// VIP meal = 500
+
+const money = 180;
+if(money<100){
+    result = `you'll need ${100-money} rupees more to buy a burger.`;
+}else if(money<200){
+    result = `you'll need ${200-money} rupees more to buy a pizza. however you can buy a burger and save ${money-100} rupees.`;
+}else if(money<300){
+    result = `you'll need ${300-money} rupees more to buy chicken biryani or you can buy a pizz and save ${money-200} rupees.`;
+}else if(money<400){
+    result = `you'll need ${400-money} rupees more to buy mutton biryani or you can buy chicken biryani and save ${money-300} rupees.`;
+}else if(money<500){
+    result = `you'll need ${500-money} rupees more to buy VIP meal or you can enjoy mutton biryani and save ${money-400} rupees`
+}else{
+    result = "congratulation you can enjoy VIP meal!"
+}
+console.log(result);
