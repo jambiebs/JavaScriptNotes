@@ -25,3 +25,34 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+// self homework
+
+// create an array using const
+// push an item to the array using push method
+// print array to console
+// try to redefine the array & see what error is shown and remind yourself why is it so
+
+
+
+
+
+
+
+
+const sampleArray = ["item1", "item2", "item3", "item4"];
+sampleArray.push("item5");
+console.log(sampleArray);
+let sampleArray = newArray;
+console.log(newArray);

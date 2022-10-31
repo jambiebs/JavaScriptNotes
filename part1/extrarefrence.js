@@ -7,6 +7,10 @@
 // arrow function****************
 // const constName = (param) => {logic writing};
 
+// iterate mean using {for in loop} and {object.keys}
+
+// array destructuring mean storing individual item of some part of array to a single or multiple variables;
+
 // array method
 
 // we perform different-2 types of logical operations using function but with single element what if those element are inside of an array? in this situation we use array method by default it uses (value, index) so whatevere your need you can use your parameteres accordingly. array methods are like callback and loop functions. all the task we use using array methods can be performed using traditional for loop method:

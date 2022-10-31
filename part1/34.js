@@ -20,11 +20,11 @@
 // for in loop
 
 // create an array using const
-// create an empty array
-// run for in loop
-// convert to uppercase and push to empty array
+// create an empty array using const2
+// use for of loop
+// push item to array2
 // print to console
-// run traditional loop
+// use for loop// run traditional loop
 
 
 // const animal = ["lion", "elephant", "goat", "dear"];
@@ -51,3 +51,25 @@
 // for(let i = 0; i<=obj.length-1; i++){
 //     console.log(obj[i]);
 // }
+
+
+
+
+// create an array using const
+// create an empty array using const2
+// use for of loop
+// push item to array2
+// print to console
+// use for loop// run traditional loop
+
+
+const anArray = ["1","2","3","4"];
+const const2 = [];
+// for(let item of anArray){
+//     const2.push(item);
+// }
+// console.log(const2);
+for(let i = 0; i<anArray.length; i++){
+    const2.push(anArray[i]);   // i dont think that it is appropriate to use this method; why use this when we have spread operator;
+}
+console.log(const2);

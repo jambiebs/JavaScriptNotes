@@ -22,15 +22,16 @@
 // self homework
 
 
-// const giridih = {
-//   area : "unknown",
-//   localGang : "so many",
-//   president : "anyone",
-//   cleanliness : 0
-// }
-// let { area, localGang, president, ...restOther} = giridih;
-// console.log(localGang);
-// // for(let key in giridih){
+const giridih = {
+  area : "unknown",
+  localGang : "so many",
+  president : "anyone",
+  cleanliness : 0
+}
+let { area, localGang, president, ...restOther} = giridih;
+console.log(Array.isArray(localGang));
+console.log(restOther);
+// for(let key in giridih){
 //   console.log(`${key} : ${giridih[key]}`);
 // }
 
@@ -60,3 +61,26 @@
 // console.log(restOther);
 
 
+
+
+
+
+
+
+
+
+
+
+// obj destructuring
+
+let newObj = {
+    village: "bishanpur",
+    state: "jharkhand",
+    "post office": "pachamba",
+    country: "India",
+}
+
+let {village, "post office": po, ...allOther} = newObj;
+console.log(village);
+console.log(po);
+console.log(allOther);

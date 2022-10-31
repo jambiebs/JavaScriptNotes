@@ -43,3 +43,23 @@
 // console.log(var2);
 // console.log("***********new array starts from here**************");
 // console.log(newarray);
+
+
+
+
+
+const myArray = ["value1", "value2"];
+let x = myArray[0];
+let x2 = myArray[1];
+console.log(myArray);
+console.log(x);
+console.log(x2);
+let[y, z] = myArray;
+console.log(y);
+console.log(z);
+console.log(b);
+
+
+
+// what does array destructure mean?
+// array destructure mean that storing an array item/value to sperete variables.

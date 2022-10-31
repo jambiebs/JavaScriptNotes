@@ -36,8 +36,10 @@ const user = [
 
 
 
-const[user1, ...rest] = user;
-console.log(first);
+const[user1, , user3, user4, ...rest] = user;
+console.log(user1);
+console.log(user3);
+console.log(user4);
 console.log(rest);
 
 

@@ -71,3 +71,30 @@
 //     array2.push(array.toUpperCase());
 // }
 // console.log(array2);
+
+
+
+
+
+
+
+// create an array using const
+// create an empty array using const2
+// use for of loop
+// push item to array2
+// print to console
+// use for loop
+
+
+
+
+
+
+const newArray = ["a", "b", "c", "d"];
+const emptyArray = [];
+console.log(emptyArray);
+for(let items of newArray){
+    emptyArray.push(items);
+}
+console.log(emptyArray);
+console.log(newArray === emptyArray);

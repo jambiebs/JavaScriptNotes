@@ -9,10 +9,10 @@
 // // for in loop 
 // // Object.keys 
 
-// // for(let key in person){
-//     // console.log(`${key} : ${person[key]}`);
-//     // console.log(key," : " ,person[key]);
-// // }
+// for(let key in person){
+    // console.log(`${key} : ${person[key]}`);
+    // console.log(key," : " ,person[key]);
+// }
 
 // // console.log(typeof (Object.keys(person)));
 // // const val = Array.isArray((Object.keys(person)));
@@ -77,3 +77,19 @@
 // // for(let value of Object.keys(person3)){
 // // console.log(`${(value)} : ${(person3[value])}`)
 // // }
+
+
+
+
+const person = {
+    personName: "jamal",
+    age: 27,
+    color: "black",
+    inteligence: "very high",
+    "financial status": "poor"
+}
+const objKey = Object.keys(person);
+console.log(objKey);
+// for(let key in person){
+//     console.log(`${key} : ${person[key]}`);
+// }

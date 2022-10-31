@@ -49,3 +49,22 @@
 // for(let i =0; i<arrayNew.length; i++){
 //     console.log(arrayNew[i]);
 // }
+
+
+
+
+
+// create an array
+// run for loop and print every item of the array seperately
+
+
+
+
+
+
+
+
+let newArray1 = ["a", "b", "c", "d"];
+for(let i = 0; i<newArray1.length; i++){
+    console.log(newArray1[i].toUpperCase()); // toUpperCase is just for fun, do not use unless required;
+}

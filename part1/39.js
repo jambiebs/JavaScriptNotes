@@ -33,13 +33,13 @@
 
 
 
-const valu1 = 'objvalue1';
-const valu2 = 'objvalue2';
+// const valu1 = 'objvalue1';
+// const valu2 = 'objvalue2';
 
 
 
-const data1 = 'objdata1';
-const data2 = "objdata2";
+// const data1 = 'objdata1';
+// const data2 = "objdata2";
 
 
 
@@ -51,8 +51,26 @@ const data2 = "objdata2";
 
 
 
-const obj = {};
+// const obj = {};
 
-obj[valu1] = data1;
-obj[valu2] = data2;
+// obj[valu1] = data1;
+// obj[valu2] = data2;
+// console.log(obj);
+
+
+
+
+
+
+const value1 = "data1";
+const value2 = "data2";
+
+
+const data1 = "value of value1";
+const data2 = "value of value2";
+
+
+obj = {};
+obj[value1] = data1;
+obj[value2] = data2;
 console.log(obj);

@@ -73,3 +73,25 @@
 //     i++;
 // }
 // console.log(fruit2);
+
+
+
+
+
+
+// create an array using const
+// apply while loop in it
+// create an empty array named fruits2
+// push array to array2
+// print to console
+
+
+
+const array3 = ["abc", "def", "ghi", "jkl"];
+let i = 0;
+while(i<array3.length){
+    console.log(array3[i]);
+    i++;
+}
+const emptyArray = [...array3];
+console.log(emptyArray);
