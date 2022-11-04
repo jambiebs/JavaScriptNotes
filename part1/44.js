@@ -182,6 +182,8 @@ function findTgt(f, t){
     }
     return "not found";
 }
-let f = [1,2,4,5,9,7,45,34,65,15,36,33,34];
+let f = [1,2,4,5,9,7,45,34,65,15,36,33,34];  
 let t = 34;
 console.log(findTgt(f, t)); 
+// completed till here 45th chapter to be started tommorrow 01/11/2022
+

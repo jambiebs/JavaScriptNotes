@@ -24,16 +24,16 @@
 // create a callback function
 
 
-function display(){
-    console.log(`welcome ${yourname}`);
-}
+// function display(){
+//     console.log(`welcome ${yourname}`);
+// }
 
 
-function input(callback){
-    yourname = "Jam Al!";
-    callback(yourname);
-}
-input(display);        // without this line the above function will not work as callback function so calling a function is important method to remember!                  
+// function input(callback){
+//     yourname = "Jam Al!";
+//     callback(yourname);
+// }
+// input(display);        // without this line the above function will not work as callback function so calling a function is important method to remember!                  
 
 
 
@@ -100,3 +100,32 @@ input(display);        // without this line the above function will not work as 
 //     callback(username);
 // }
 // userinput(greeting);
+
+
+
+
+
+
+
+
+
+
+
+
+// create a callback function
+
+let function1 = (callback) => {
+    console.log("this output is from function1");
+    let sm = "485454824887545452484234654";
+    callback(sm);
+    // console.log(callback(sm));
+    console.log(callback);
+}
+let function2 = (message) => {
+    console.log("this output is from function2");
+    console.log(`the secret message is ${message}, decode it`)
+    // return `the secret message is ${message}, decode it`
+    
+}
+
+function1(function2);

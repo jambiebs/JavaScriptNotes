@@ -1,6 +1,6 @@
 // // functions inside function 
 // function app(){
-//     const myFunc = () =>{
+//     const myFunc = () => {
 //         console.log("hello from myFunc")
 //     }
 
@@ -52,8 +52,19 @@
 
 
 
+let x = (hello) => {
+    return 'hello world!'
+}
+let addTwo = (a, b) => {
+    return a + b;
+}
 
 
+let a = 10;
+let b = 50;
+const multifn = x();
+const multifn1 = addTwo(a,b)
+console.log(`msg from hello is "${multifn}" and sum of number is "${multifn1}"`);
 
 
 

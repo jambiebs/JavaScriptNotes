@@ -75,12 +75,44 @@
 // create a function inside a function and store it to a variable
 
 
-function hw(){
-    function hello(){
-        console.log("hello world")
-    }
-    return hello;
-}
+// function hw(){
+//     function hello(){
+//         console.log("hello world")
+//     }
+//     return hello;
+// }
 
-let msg = hw();
-msg();
+// let msg = hw();
+// msg();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+let function12 = () => {
+console.log("i am function 12");
+let function353 = () => {
+    console.log("i am function 353");
+}
+return function353;
+}
+let func = function12();
+func(); // this will show the output of both function that's why it is important to store a function in a variable;
+function12(); //  this will only show the output of function12
