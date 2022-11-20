@@ -54,5 +54,5 @@
 const sampleArray = ["item1", "item2", "item3", "item4"];
 sampleArray.push("item5");
 console.log(sampleArray);
-let sampleArray = newArray;
+// let sampleArray = newArray;
 console.log(newArray);
