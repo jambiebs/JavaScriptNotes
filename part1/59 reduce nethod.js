@@ -76,3 +76,10 @@ function cartValue2(c,d){
     return c + d.price;
 }
 console.log(myCart.reduce((cartValue2), 0));  // 0 is initial value
+
+
+const newSumValue = [86,45,2,55,8,645,166,541];
+const newsum = newSumValue.reduce((a,b)=>{
+    return a+b;
+});
+console.log(newsum);

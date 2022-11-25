@@ -187,3 +187,23 @@ console.log(objectt.sort(obj));
 const fnd = objectt.find((objectt) => objectt.Id === 7);
 console.log(fnd);
 
+// practice
+
+
+const num1 = [5,6,456,5,45,8,88,88,8,6,58,46,8]
+let sortedA = num1.sort((a,b)=>{
+    return a-b;
+})
+console.log(sortedA);
+
+let sortedD = num1.sort((a,b)=>{
+    return b-a;
+})
+console.log("***************************");
+console.log(sortedD);
+
+
+
+let newArray = ["ankit", "abhijit", "ajit", "arshit", "abhiprit", "arijit"];
+let sortedW = newArray.sort();
+console.log(sortedW);
