@@ -109,7 +109,17 @@ const person2 = {
 const extraDetail = new Map();
 extraDetail.set(person1, {nature: "chutiy"});
 extraDetail.set(person2, {nature: "mahachutiya"});
-console.log(extraDetail);
+// console.log(extraDetail);
 // console.log(extraDetail.nature); // this syntax will not work use get method
-console.log(extraDetail.get(person1).nature);
-console.log(extraDetail.get(person2).nature);
+// console.log(extraDetail.get(person1).nature);
+// console.log(extraDetail.get(person2).nature);
+for(let keys of extraDetail.keys()){
+    console.log(keys);
+}
+for(let [key, value] of extraDetail){
+    console.log(key,value);
+}
+
+const jamal = new Map([["firstname", "Jam"],["lastname", "Al"]]);
+jamal.set(["age", 27]);
+console.log(jamal);
