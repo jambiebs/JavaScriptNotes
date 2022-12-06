@@ -4,4 +4,6 @@
     
 // //     console.log(this);
 // // }
-// // myFunc();
+// myFunc(); 
+
+console.log(this);

@@ -61,29 +61,53 @@
 
 // refrenced functions
 
-const userInfo = function () {
-    console.log(`name of ${this.person} is ${this.name} and age is ${this.age}`);
-}
+// const userInfo = function () {
+//     console.log(`name of ${this.person} is ${this.name} and age is ${this.age}`);
+// }
 
-const person1 = {
-    person: "person1",
-    name: "md jamal",
-    age: 27,
-    printDetail: userInfo  //()
-}
-const person2 = {
-    person: "person2",
-    name: "ajay",
-    age: 28,
-    printDetail: userInfo  //()
-}
-const person3 = {
-    person: "person3",
-    name: "vijay",
-    age: 30,
-    printDetail: userInfo  //()
-}
-person1.printDetail();
-person2.printDetail();
-person3.printDetail();
+// const person1 = {
+//     person: "person1",
+//     name: "md jamal",
+//     age: 27,
+//     printDetail: userInfo  //()
+// }
+// const person2 = {
+//     person: "person2",
+//     name: "ajay",
+//     age: 28,
+//     printDetail: userInfo  //()
+// }
+// const person3 = {
+//     person: "person3",
+//     name: "vijay",
+//     age: 30,
+//     printDetail: userInfo  //()
+// }
+// person1.printDetail();
+// person2.printDetail();
+// person3.printDetail();
 // userInfo();     <=this functions returns undefined
+
+
+// what is method?
+// fucntion inside object is called method
+// what is "this" keyword?
+// "this" keyword is like the object itself for example:-
+
+const person245 = {
+    nature: "angry",
+    mood: "unpredictable",
+    current_status: "stable",
+    // about: function(){
+    //     console.log(`nature of person245 is ${this.nature}, mood is ${this.mood} and status is ${this.current_status}`);
+    // },
+    what_is_this: function(){
+        console.log(this);
+    }
+}
+console.log(person245);
+// person245.about();
+person245.what_is_this(); // the output of this line and line no 108 is same so it proves that this keyword is same like the object inside which, it is mentioned or by which, object it is called;
+
+
+
