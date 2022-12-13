@@ -7,7 +7,7 @@
 
 // function myFunc(callback){
 //     console.log("hello there I am a func and I can..")
-//     callback("harshit");
+//     callback("harshit");            // here callback("harshit") === myfunct(name);
 // }
 
 
@@ -80,8 +80,8 @@
   
 //   function processUserInput(callback) {                 //here we create a function to callback the main greeting function
 //     const name = prompt("Please enter your name.");     // we created a variable prompt to take input from user     
-//     callback(name);                                     // after getting input from user we stored it to var name and passed
-//   }                                                     // it to main greeting function using callback
+//     callback(name); // after getting input from user we stored it to var name and passed it to main greeting function using callback
+//   } 
   
 //   processUserInput(greeting);
   

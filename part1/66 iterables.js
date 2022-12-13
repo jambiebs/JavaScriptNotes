@@ -36,3 +36,17 @@ const alpha = "abcdefghijklmnopqrstuvwxyz";
 for(let char of alpha){
     console.log(char);
 }
+
+console.log("****************************************************************************")
+
+
+// for of loops in strings
+const myName = "Md Jamal Uddin ansari";
+for(let char of myName){
+    console.log(char);
+}
+// for of loops in array
+const MyArray = new Array(10).fill(88);
+for(let value of MyArray){
+    console.log(value);
+}

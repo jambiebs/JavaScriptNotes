@@ -106,13 +106,33 @@
 
 
 
-let function12 = () => {
-console.log("i am function 12");
-let function353 = () => {
-    console.log("i am function 353");
+// let function12 = () => {
+// console.log("i am function 12");
+// let function353 = () => {
+//     console.log("i am function 353");
+// }
+// return function353;
+// }
+// let func = function12();
+// func(); // this will show the output of both function that's why it is important to store a function in a variable;
+// function12(); //  this will only show the output of function12
+
+
+
+
+
+function myfunc1(){
+    function hello(){
+        return "hello world!"
+    }
+    return hello;
 }
-return function353;
+let ans = myfunc1();
+console.log(ans());
+
+
+function myfunc2(){
+    return "how are you nowdays?";
 }
-let func = function12();
-func(); // this will show the output of both function that's why it is important to store a function in a variable;
-function12(); //  this will only show the output of function12
+let print = myfunc2();
+console.log(print);

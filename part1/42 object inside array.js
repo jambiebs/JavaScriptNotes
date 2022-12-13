@@ -49,6 +49,6 @@ const user = [
     ]
 
     for(let users of user){
-        // console.log(users.userId);
+        // console.log(users);
         console.log(users.userId, ":", users.password);
     }

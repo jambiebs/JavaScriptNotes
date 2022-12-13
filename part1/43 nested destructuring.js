@@ -1,4 +1,5 @@
 // // nested destructuring 
+// destructuring an object inside array is called nested destructuring
 // const users = [
 //     {userId: 1,firstName: 'harshit', gender: 'male'},
 //     {userId: 2,firstName: 'mohit', gender: 'male'},

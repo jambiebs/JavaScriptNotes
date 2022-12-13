@@ -217,3 +217,4 @@ let users = ({ fullName, age, color, height, employmentStatus }) => {
 users(user27);
 console.log("*******************************************")
 users(user22);
+console.log(user27);

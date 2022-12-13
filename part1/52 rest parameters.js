@@ -139,11 +139,7 @@ for(let value in jamal2){
 }
 
 
-
-
-
 // add all numbers of array
-
 let x =[45,5,6,94,56,54,546,88,45,54654,85,46548,8,68,4,654,988,8];
 let sumAll = (...x) => {
     result = 0;

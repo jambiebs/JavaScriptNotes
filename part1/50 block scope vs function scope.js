@@ -18,9 +18,9 @@ function myApp(){
     }
 
     // if(true){
-        // console.log(firstName);
-    // }
-    // console.log(firstName);
+//         console.log(firstName);
+//     }
+//     console.log(firstName);
 }
 
 myApp();

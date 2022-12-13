@@ -1,4 +1,31 @@
 // map method 
+// map method is similar to forEach method there are only two differences:-
+// 1. map method creates a new array while forEach method doesn't create a new array
+// 2. map method has chaining method ability.
+
+// map method vs forEach method
+
+function test(number) {
+    console.log(`${number * 2}`);
+}
+const numbers = [8, 12, 26, 8, 5, 9];
+let x = numbers.forEach(test);       //both gives same output
+let y = numbers.map(test);           //both gives same output
+console.log(Array.isArray(x));       //false
+console.log("*****************************************")
+console.log(Array.isArray(y));       //true
+
+
+//chaining ability
+
+/*let a = numbers.forEach(test).sort(function(a,b){
+     return a-b;
+ });*/  //this line giving an error because forEach has not the ability to chain other method
+console.log("*****************sorted*************************")
+let b = numbers.map(test).sort(function(a,b){
+    return a-b;
+});
+
 // const numbers = [3,4,6,1,8];
 
 // const square = function(number){

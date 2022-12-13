@@ -34,11 +34,6 @@ console.log(restOther);
 // for(let key in giridih){
 //   console.log(`${key} : ${giridih[key]}`);
 // }
-
-
-
-
-
 // try yourself
 
 
@@ -81,6 +76,8 @@ let newObj = {
 }
 
 let {village, "post office": po, ...allOther} = newObj;
+// while obj destructuring we cannot store something in a string that's whay "post office": po;
 console.log(village);
 console.log(po);
 console.log(allOther);
+console.log(newObj);

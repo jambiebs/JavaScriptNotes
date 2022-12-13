@@ -40,29 +40,47 @@
 
 // use of class in javascript
 
-class sudo {
-    constructor(firstName, lastName, age) {
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.age = age;
-    }
-    // whatThis(){
-    // console.log(this);
+// class sudo {
+//     constructor(firstName, lastName, age) {
+//         this.firstName = firstName;
+//         this.lastName = lastName;
+//         this.age = age;
+//     }
+//     // whatThis(){
+//     // console.log(this);
+// // }
+// about() {
+//     return `user's name is ${this.firstName} ${this.lastName} and age is ${this.age}, ${this}`
 // }
-about() {
-    return `user's name is ${this.firstName} ${this.lastName} and age is ${this.age}, ${this}`
-}
-adult() {
-    if (this.age >= 18) {
-        return `${this.firstName} ${this.lastName} is an adult!`;
-    } else {
-        return `${this.firstName} ${this.lastName} is not an adult.`;
-    }
-}
-}
+// adult() {
+//     if (this.age >= 18) {
+//         return `${this.firstName} ${this.lastName} is an adult!`;
+//     } else {
+//         return `${this.firstName} ${this.lastName} is not an adult.`;
+//     }
+// }
+// }
 
-const user1 = new sudo("ajay", "kumar", 19);
-const user2 = new sudo("binod", "yadav", 16);
-const user3 = new sudo("paapu", "mandal", 44);
-console.log(user2.about());
-console.log(user2.adult());
+// const user1 = new sudo("ajay", "kumar", 19);
+// const user2 = new sudo("binod", "yadav", 16);
+// const user3 = new sudo("paapu", "mandal", 44);
+// console.log(user2.about());
+// console.log(user2.adult());
+
+
+// reduce method practice
+
+const usercart =[
+    {productName:"headphone",price:299},
+    {productName:"charger",price:699},
+    {productName:"Temperd glass",price:199}
+];
+
+// const cartValue = usercart.reduce((x,y)=>{
+//     return x+y.price;
+// },0);
+// console.log(cartValue);
+function sum(x,y){
+    return x + y.price;
+}
+console.log(usercart.reduce((sum),0));

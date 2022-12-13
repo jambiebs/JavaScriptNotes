@@ -48,3 +48,10 @@
 
 // const myNewObj = {...obj1, ...obj2, hello: "world", ...["item4, item5"]};
 // console.log(myNewObj);
+
+
+
+const list1 = [1,2,3,4,5,6];
+const list2 = [7,8,9,10];
+const list3 = [...list1,...list2];
+console.log(list3);

@@ -47,7 +47,7 @@
 // //     petname : "tiger",
 // //     "active time" : "night",
 // //     "age in days" : 406,
-// //     "health condition" : "mild digetion problem"
+// //     "health condition" : "mild digesion problem"
     
 // // }
 
