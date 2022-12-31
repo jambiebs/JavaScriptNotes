@@ -26,6 +26,22 @@
 
 
 
+// practice
+const temp = -15;
+if (temp<=0){
+    console.log("it is freezing outside");
+}else if (temp<=10){
+    console.log("it is cold outside");
+}else if (temp<=20){
+    console.log("little cold outside");
+}else if (temp<=30){
+    console.log("pleasant weather");
+}else if (temp<=40){
+    console.log("it is warm outside");
+}else{
+    console.log("it is extremly hot outside");
+}
+
 
 
 

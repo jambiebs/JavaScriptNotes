@@ -106,3 +106,17 @@ console.log(typeof abc);
 console.log("**********check if a variable is an array or not;**************");
 console.log(Array.isArray(x));
 console.log(Array.isArray(abc));
+
+
+
+
+
+// typeof
+const uname = 56;
+console.log(typeof uname);
+const uname1 = "jamal";
+console.log(typeof uname1);
+const uname2 = [1,2,6,8,6,5,84,4545,];
+console.log(typeof uname2);
+console.log(Array.isArray(uname2));
+

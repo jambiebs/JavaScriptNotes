@@ -68,7 +68,17 @@
 
 
 // // write an example of ternery operator
+// syntax: [condition] ? [result_if_condition_true] : [result_if_condition_false];
+const temp = 50;
+const result = temp<=20 ? "it is cold outside" : "it is hot outside";
+console.log(result);
 
-let temp = 30
-let output = temp <=  20 ? "cold" : "hot";
-console.log(output);
+
+
+
+
+
+
+
+
+

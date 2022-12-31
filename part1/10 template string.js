@@ -26,3 +26,11 @@
 // let address = "At-Bishanpur, Po-Pachamba, Dist-Giridih, State-Jharkhand 815316"
 // console.log(`My name is ${userName}, I am ${age} years old and my address is ${address}`);
 // console.log("my name is ", userName, "I am ", age, "years old and my address is ", address);
+
+
+
+
+// template string(backtick);
+const uname = "jamal"
+const age = 27;
+console.log(`my name is ${uname} and age is ${age}`);

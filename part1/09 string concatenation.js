@@ -42,3 +42,22 @@ const number1 = +"78";  // using + sign converts the string to number
 const number2 = +"6";
 const addNum = number1 + number2;
 console.log(addNum);
+
+
+// string concatenation
+const a = +"56";
+const b = +"44";
+const c = a + b;
+console.log(c);
+
+
+
+
+
+
+
+
+
+
+
+

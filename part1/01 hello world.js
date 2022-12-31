@@ -1,16 +1,18 @@
-// console.log can print something on console 
-console.log("hello world");
+// // console.log can print something on console 
+// console.log("hello world");
 
 
 
 
 
-// custom code by --jamal
+// // custom code by --jamal
 
 
-// practice yourself
+// // practice yourself
 
-// print something to console
+// // print something to console
 
 
-console.log('hello world!');
+// console.log('hello world!');
+
+console.log("this is practice");

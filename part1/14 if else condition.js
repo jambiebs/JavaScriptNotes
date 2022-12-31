@@ -131,3 +131,28 @@ if(baki===jama){
     result = `aapke khate me uplabdh rashi hai ${jama-baki} Rs`;
 }
 console.log(result);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// if else
+let child = 25;
+let adult = 49;
+if(adult>=child*2){
+    console.log(`there is ${child*2} couples with kid`);
+}else{
+    console.log("it is not clear that how many couples has kid because number of kids are more than couples");
+}
