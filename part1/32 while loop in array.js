@@ -87,11 +87,20 @@
 
 
 
-const array3 = ["abc", "def", "ghi", "jkl"];
+// const array3 = ["abc", "def", "ghi", "jkl"];
+// let i = 0;
+// while(i<array3.length){
+//     console.log(array3[i]);
+//     i++;
+// }
+// const emptyArray = [...array3];
+// console.log(emptyArray);
+
+
+const array1 = ['a', 'b', 'c', 'd', 'e'];
 let i = 0;
-while(i<array3.length){
-    console.log(array3[i]);
+while(i<array1.length){
+ let index = array1[i].toUpperCase();
     i++;
+    console.log(index);
 }
-const emptyArray = [...array3];
-console.log(emptyArray);

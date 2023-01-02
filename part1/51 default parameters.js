@@ -106,9 +106,13 @@
 
 
 
-function add2(x,y=0){
-    return x+y;
+function add2(x, y) {
+    if(y===undefined){
+        y=0;
+    }
+    return x + y;
+    
 }
 let j = 50;
 let k;
-console.log(add2(j,k));
+console.log(add2(j, k));

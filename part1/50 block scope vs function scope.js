@@ -13,7 +13,7 @@
 
 function myApp(){
     if(true){
-        let firstName = "harshit";
+        var firstName = "harshit";
         console.log(firstName);
     }
 

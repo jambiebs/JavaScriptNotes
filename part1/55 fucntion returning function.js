@@ -128,7 +128,7 @@ function myfunc1(){
     return hello;
 }
 let ans = myfunc1();
-console.log(ans());
+console.log(ans);
 
 
 function myfunc2(){

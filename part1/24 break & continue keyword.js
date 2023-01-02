@@ -15,6 +15,15 @@
 //     }
 //     console.log(i);
 // }
-// console.log("hello there");
+// console.log("hello there")
 
 
+
+// break and continue keyword
+
+for(let i = 0; i<=10; i++){
+    if(i===7){
+        break;
+    }
+    console.log(i);
+}

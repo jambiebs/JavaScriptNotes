@@ -64,7 +64,21 @@
 
 
 
-let newArray1 = ["a", "b", "c", "d"];
-for(let i = 0; i<newArray1.length; i++){
-    console.log(newArray1[i].toUpperCase()); // toUpperCase is just for fun, do not use unless required;
+// let newArray1 = ["a", "b", "c", "d"];
+// for(let i = 0; i<newArray1.length; i++){
+//     console.log(newArray1[i].toUpperCase()); // toUpperCase is just for fun, do not use unless required;
+// }
+
+
+
+
+
+
+
+
+
+
+let anArray = ["a", "b", "c", "d", 'e'];
+for(let i = 0; i<anArray.length; i++){
+    console.log(anArray[i]);
 }

@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+table{
+    font-size: 50px;
+    font-weight: bold;
+    border: 1px solid green;
+
+}
+td{
+    border: 1px solid green;
+}
+body{
+    margin: 50px 100px;
+
+}

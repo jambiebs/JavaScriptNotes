@@ -7,7 +7,7 @@
 
 // function myFunc(callback){
 //     console.log("hello there I am a func and I can..")
-//     callback("harshit");            // here callback("harshit") === myfunct(name);
+//     callback("harshit");            // here callback("harshit") === myfunc2(name);
 // }
 
 
@@ -34,27 +34,6 @@
 //     callback(yourname);
 // }
 // input(display);        // without this line the above function will not work as callback function so calling a function is important method to remember!                  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // custom code by --jamal
 
@@ -85,11 +64,6 @@
   
 //   processUserInput(greeting);
   
-
-
-
-
-
 // //   try yourself
 
 // function greeting(username){
@@ -103,29 +77,29 @@
 
 
 
-
-
-
-
-
-
-
-
-
 // create a callback function
 
-let function1 = (callback) => {
-    console.log("this output is from function1");
-    let sm = "485454824887545452484234654";
-    callback(sm);
-    // console.log(callback(sm));
-    console.log(callback);
-}
-let function2 = (message) => {
-    console.log("this output is from function2");
-    console.log(`the secret message is ${message}, decode it`)
-    // return `the secret message is ${message}, decode it`
+// let function1 = (callback) => {
+//     console.log("this output is from function1");
+//     let sm = "485454824887545452484234654";
+//     callback(sm);
+//     // console.log(callback(sm));
+//     console.log(callback);
+// }
+// let function2 = (message) => {
+//     console.log("this output is from function2");
+//     console.log(`the secret message is ${message}, decode it`)
+//     // return `the secret message is ${message}, decode it`
     
-}
+// }
 
-function1(function2);
+// function1(function2);
+
+function oribori(x){
+    console.log("from oribori", x);
+}
+function jonparson(y){
+    let uname = "Md Jamal Uddin Ansari";
+    y(uname);
+}
+jonparson(oribori);

@@ -7,39 +7,15 @@
 
 // // // console.log("value of i is ",i);
 
-
-
 // // // CUSTOM CODE BY --JAMAL
 
 // // // for(i=0;i<=100;i++){
 // // //     console.log(i);
 // // // }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+for(let i =0; i<=10; i++){
+    console.log(i);
+}
 // // // CUSTOM CODE BY --JAMAL
 
 // let day = 1;
@@ -63,20 +39,9 @@
 // }
 // // // console.log("this is an example of how switch case works")
 
-
-
-
-
 // for(let i = 1; i<=100; i++){
 //     console.log(i);
 // }
-
-
-
-
-
-
-
 
 let month = 0;
 switch(month){
