@@ -211,14 +211,37 @@
 
 
 // sort method
-// sorting numbers;
-const numbers = [58,45,645,45,4598,454,845,498465,46,46,45,5,8,8995];
-const sorted = numbers.sort((a,b)=>{
-    return b-a;
-});
-console.log(sorted);
-// sorting alphabets;
+// // sorting numbers;
+// const numbers = [58,45,645,45,4598,454,845,498465,46,46,45,5,8,8995];
+// const sorted = numbers.sort((a,b)=>{
+//     return b-a;
+// });
+// console.log(sorted);
+// // sorting alphabets;
 
-const alphabet = ["b","c","d","o","f","g","i","l","z","p","h","s"];
-const sortedAlpha = alphabet.sort();
-console.log(sortedAlpha);
+// const alphabet = ["b","c","d","o","f","g","i","l","z","p","h","s"];
+// const sortedAlpha = alphabet.sort();
+// console.log(sortedAlpha);
+
+
+// sort method
+
+const numbers = [58, 45, 645, 45, 4598, 454, 845, 498465, 46, 46, 45, 5, 8, 8995];
+const lowToHigh = numbers.sort((a, b) => a - b);
+// const highToLow = numbers.sort((a, b) => b - a);
+console.log(lowToHigh);
+// console.log(highToLow);
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -53,3 +53,13 @@ const find = numbers.find((x)=>{
     }
 });
 console.log(find);
+
+
+
+const words = ["samim", "jamal", "binod"];
+const zind = words.find((x)=>{
+    if(x === "jamal"){
+        return `${x}`;
+    }
+});
+console.log(zind);

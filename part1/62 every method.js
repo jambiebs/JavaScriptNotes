@@ -61,6 +61,13 @@
 // every method
 
 
-const numbers = [5,9,13,17,82,19];
-const every = numbers.every(x => x%2 ===1);
-console.log(every);
+// const numbers = [5,9,13,17,82,19];
+// const every = numbers.every(x => x%2 ===1);
+// console.log(every);
+
+
+
+
+
+
+

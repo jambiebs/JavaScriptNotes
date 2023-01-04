@@ -35,7 +35,6 @@
 
 
 // splice method 
-
-const itemList1 = ["a", "b", "c", "d"];
-itemList1.splice(2,2);
-console.log(itemList1);
+const numbering = ["a", "b", "c", "d"];
+// const modified = numbering.splice(0,4,1,2,3,"this is not okay");
+console.log(numbering);

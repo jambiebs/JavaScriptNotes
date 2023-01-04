@@ -71,20 +71,16 @@
 
 
 // // sets
+const numbers = [6,10,5,5,5,2,2,2,9,6,9,9,3,3,10,3,4,4,4];
+console.log(numbers.length);
+const uniqueNumber = new Set(numbers);
+uniqueNumber.add(588);
+uniqueNumber.delete(588);
+console.log(uniqueNumber);
+uniqueNumber.forEach((x)=>{
+    console.log(x-x);
+})
+console.log(uniqueNumber.has(5));
+console.log(uniqueNumber.size);
+uniqueNumber
 
-
-const numbers = [6,10,5,5,5,2,2,2,9,9,9,3,3,3,4,4,4];
-const uniq = new Set(numbers);
-console.log(uniq);
-
-const setCreation = new Set();
-setCreation.add("my");
-setCreation.add("name");
-setCreation.add("is");
-setCreation.add("md");
-setCreation.add("jamal");
-console.log(setCreation);
-
-
-// completed till set next chapter Maps
-// dated:13/12/2022;
