@@ -98,3 +98,12 @@ const bind2 = testData.bind(applyTest2,"bind3","test4"); // do not use squarebra
 bind1();
 bind2();
 // bind has same function like apply difference is this that it returns a function instead of calling so we store it in a variable and can call it whenever required;
+
+
+
+//dukan ka saman dated: 04/01/2023
+// 1. onion 2 kg
+// 2. potato 2 kg
+// 3. tea 1 pkt
+// 4. flour 5 kg
+// 5. oil 1 kg
