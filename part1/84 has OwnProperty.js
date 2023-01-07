@@ -21,9 +21,12 @@ const user2 = new CreateUser('harsh', 'vashsith', 'harshit@gmail.com', 19, "my a
 const user3 = new CreateUser('mohit', 'vashsitha', 'harshit@gmail.com', 17, "my address");
 
 for(let key in user1){
-    // console.log(key);
-    if(user1.hasOwnProperty(key)){
-        console.log(key);
-    }
+    console.log(key);
+    // if(user1.hasOwnProperty(key)){
+    //     console.log(key);
+    // }
 
 }
+
+
+// hasOwnProperty mean that user has key value pairs but user method is not something that we can call properties 
