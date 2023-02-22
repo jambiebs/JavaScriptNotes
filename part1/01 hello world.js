@@ -15,4 +15,4 @@
 
 // console.log('hello world!');
 
-console.log("this is practice");
+console.log("this is practice for windows");
