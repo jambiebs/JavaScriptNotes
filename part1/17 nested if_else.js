@@ -1,10 +1,10 @@
 // // nested if else
 
-// // winning number 19 
+// // winning number 19
 
-// // 19 your guess is right 
-// // 17 too low 
-// // 20 too high 
+// // 19 your guess is right
+// // 17 too low
+// // 20 too high
 
 // // my custom code --jamal
 
@@ -24,10 +24,6 @@
 // //     }
 // // }
 
-
-
-
-
 // // let userId = "jambiebs";
 // // let password = 24246120;
 // // let userguess1 = prompt("enter your username");
@@ -45,16 +41,6 @@
 // //         }
 // //     }
 // // }
-
-
-
-
-
-
-
-
-
-
 
 // let username = "jambiebs";
 // let pass = 24246120;
@@ -76,21 +62,45 @@
 // console.log(result);
 // nested if else practice
 // weather condition
-const temp = 41;
-if (temp <= 10) {
-    console.log("it is cold outside");
+// const temp = 41;
+// if (temp <= 10) {
+//     console.log("it is cold outside");
+// } else {
+//     if (temp > 10 && temp <= 20) {
+//         console.log("little cold outside");
+//     } else {
+//         if (temp > 20 && temp <= 30) {
+//             console.log("weather is pleasant outside");
+//         } else {
+//             if (temp > 30 && temp <= 40) {
+//                 console.log("weather is hot outside");
+//             } else {
+//                 console.log("it is extremely hot outside");
+//             };
+//         }
+//     }
+// }
+
+// let member = "OK";
+// let cash;
+// if(cash>=1000){
+//     console.log(member + " is a VIP Member");
+// }else{
+//     if(cash<=1000){
+//         console.log(member + " is a Regular Member");
+//     }else{
+//         console.log("you are a useless member");
+//     }
+// }
+// console.log("Depositd Amount is = " + cash);
+
+let member = "OK";
+let cash;
+if (cash >= 1000) {
+  console.log(member + " is a VIP Member");
+} else if (cash <= 1000) {
+  console.log(member + " is a Regular Member");
 } else {
-    if (temp > 10 && temp <= 20) {
-        console.log("little cold outside");
-    } else {
-        if (temp > 20 && temp <= 30) {
-            console.log("weather is pleasant outside");
-        } else {
-            if (temp > 30 && temp <= 40) {
-                console.log("weather is hot outside");
-            } else {
-                console.log("it is extremely hot outside");
-            };
-        }
-    }
+  console.log("you are a useless member");
 }
+console.log("Depositd Amount is = " + cash);

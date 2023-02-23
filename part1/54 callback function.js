@@ -95,11 +95,45 @@
 
 // function1(function2);
 
-function oribori(x){
-    console.log("from oribori", x);
+// function oribori(x){
+//     console.log("from oribori", x);
+// }
+// function jonparson(y){
+//     let uname = "Md Jamal Uddin Ansari";
+//     y(uname);
+// }
+// jonparson(oribori);
+
+// callback function
+
+function x(name){
+    console.log("inside x");
+    console.log(`your name is ${name}`);
 }
-function jonparson(y){
-    let uname = "Md Jamal Uddin Ansari";
-    y(uname);
+
+function y(callback){
+    console.log("hello i am function y");
+    x("jamal");
+    callback("jamal"); 
 }
-jonparson(oribori);
+// explaination
+// on y function above y has a parameter "callback", then we call y(x),thus callback becomes x;
+// so according to this "x === callback";
+// x(name) === callback("jamal");
+y(x);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -135,21 +135,27 @@
 // }
 // console.log(sumAll(...x));
 
+// function sumAll(...x){
+//     let total = 0;
+//     for(let number of x){
+//         total = total + number;
+//     }
+//     return total;
+// }
+// const add = sumAll(55,55,90,300);
+// console.log(add);
 
 
+// add all function
 
+let array = [10,20,30,40,50,60,-10];
 
-
-
-
-
-
-function sumAll(...x){
-    let total = 0;
-    for(let number of x){
-        total = total + number;
+function sumAll(...array){
+    let number = 0;
+    for(let numbers of array){
+        number = number+numbers;
     }
-    return total;
+    return number;
 }
-const add = sumAll(55,55,90,300);
-console.log(add);
+const sum = sumAll(...array);
+console.log(sum);

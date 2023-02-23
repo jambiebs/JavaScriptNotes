@@ -67,22 +67,3 @@ for(let users in user){
 for(let sudos of user){
     console.log(sudos);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

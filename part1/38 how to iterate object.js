@@ -98,15 +98,45 @@
 
 
 
-const person = {
-    uname: "ashok",
-    age: 28,
-    nature: "calm",
-    ethnicity: "homo"
-}
+// const person = {
+//     uname: "ashok",
+//     age: 28,
+//     nature: "calm",
+//     ethnicity: "homo"
+// }
 // for(let key in person){
     // console.log(`${key} : ${person[key]}`);
 // }
-for (let [key,val] of Object.entries(person)){
-    console.log(`${key}:${val}`);
+// for (let [key,val] of Object.entries(person)){
+//     console.log(`${key}:${val}`);
+// }
+
+
+
+// const person = {
+//     uname: "ashok",
+//     age: 28,
+//     nature: "calm",
+//     ethnicity: "homo"
+// }
+// for(let detail in person){
+//     console.log(`${detail} : ${person[detail]}`);
+// }
+
+
+let array234 = [1,2,6,45,8,6];
+for(let numbers of array234){
+    console.log(numbers);
 }
+
+
+
+
+
+
+
+
+
+
+
+

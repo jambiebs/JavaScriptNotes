@@ -83,10 +83,28 @@
 // map method
 
 
-const newArray = [55,15,11,5,45,15,85,15];
+// const newArray = [55,15,11,5,45,15,85,15];
 
-const TheNewArray = newArray.map((n,i)=>{
-    return (`(${i+1})${n*3}`);
+// const TheNewArray = newArray.map((n,i)=>{
+//     return (`(${i+1})${n*3}`);
+// });
+// console.log(TheNewArray);
+// console.log(TheNewArray[6]);
+
+let newArray = [55,15,11,5,45,15,85,15];
+let forEachArray = newArray.forEach((v, i)=>{
+    return v;
 });
-console.log(TheNewArray);
-console.log(TheNewArray[6]);
+
+let mapArray = newArray.map((v,i)=>{
+    return v;
+});
+console.log(Array.isArray(mapArray));
+console.log(Array.isArray(forEachArray));
+console.log(typeof forEachArray);
+
+mapArray.push(100);
+console.log(mapArray);
+// forEachArray.push(500);
+console.log(newArray);
+// console.log(forEachArray);

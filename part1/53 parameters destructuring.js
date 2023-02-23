@@ -190,31 +190,52 @@
 
 
 
-let user27 = {
-    fullName: "Md Jamaluddin Ansari",
-    age: 27,
-    color: "black",
-    height: `5'7"`,
-    employmentStatus: "unemployed"
-}
-let user22 = {
-    fullName: "jambiebs",
-    age: 22,
-    color: "brown",
-    height: `5'7"`,
-    employmentStatus: "employed"
-}
+// let user27 = {
+//     fullName: "Md Jamaluddin Ansari",
+//     age: 27,
+//     color: "black",
+//     height: `5'7"`,
+//     employmentStatus: "unemployed"
+// }
+// let user22 = {
+//     fullName: "jambiebs",
+//     age: 22,
+//     color: "brown",
+//     height: `5'7"`,
+//     employmentStatus: "employed"
+// }
 
-let users = ({ fullName, age, color, height, employmentStatus }) => {
-    for(let value of [fullName, age, color, height, employmentStatus])
-    console.log(value);
+// let users = ({ fullName, age, color, height, employmentStatus }) => {
+    // for(let value of [fullName, age, color, height, employmentStatus])
+    // console.log(value);
     // console.log(fullName);
     // console.log(age);
     // console.log(color);
     // console.log(height);
     // console.log(employmentStatus);
-}
-users(user27);
+// }
+// users(user27);
 // console.log("*******************************************")
 // users(user22);
 // console.log(user27);
+
+
+
+
+const obj = {
+    pid01 : "Bajaj Motor",
+    pid02 : "Orient Mixer",
+    pid03 : "Havells Induction",
+    pid04 : "Toofan Table Fan"
+}
+
+const objdst= ({pid01, pid02, pid03, pid04})=>{
+// for(let names of [pid01, pid02, pid03, pid04]){
+        // console.log(names); // here for of loop is used to print all the item at once; if you want to print one item individualy then for of loop is not required;
+        console.log(pid01);
+        console.log(pid02);
+        console.log(pid03);
+        console.log(pid04);
+    // }
+}
+objdst(obj);

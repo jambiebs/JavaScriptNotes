@@ -13,14 +13,12 @@
 
 function myApp(){
     if(true){
-        var firstName = "harshit";
-        console.log(firstName);
+        let firstName = "harshit";
+        // console.log(firstName);
     }
-
     // if(true){
-//         console.log(firstName);
-//     }
-//     console.log(firstName);
+    //     console.log(firstName);
+    // }
+    console.log(firstName);
 }
-
 myApp();

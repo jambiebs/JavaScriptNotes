@@ -107,3 +107,12 @@ console.log(array5);
 // let array5 = [...array1,"I", ...array2, ...array3, ...array4];
 // console.log(array5);
 
+// slice method
+let array22 = [1,2,6,2,5];
+let array23 = ["a", "b"];
+let merged = [...array22, ...array23];
+let merged2 = array22.concat(array23);
+let merged3 = [].concat(...array22, ...array23, ...array22, ["extra item"]);
+console.log(merged);
+console.log(merged2);
+console.log(merged3);

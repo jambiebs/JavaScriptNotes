@@ -131,8 +131,8 @@ let ans = myfunc1();
 console.log(ans);
 
 
-function myfunc2(){
-    return "how are you nowdays?";
-}
-let print = myfunc2();
-console.log(print);
+// function myfunc2(){
+//     return "how are you nowdays?";
+// }
+// let print = myfunc2();
+// console.log(print);
