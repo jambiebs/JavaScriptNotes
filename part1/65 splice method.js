@@ -1,5 +1,5 @@
 // // splice method 
-// // start , delete , insert 
+// // start(index) , delete , insert 
 
 // // const myArray = ['item1', 'item2', 'item3'];
 
@@ -37,4 +37,10 @@
 // splice method 
 const numbering = ["a", "b", "c", "d"];
 // const modified = numbering.splice(0,4,1,2,3,"this is not okay");
+// console.log(numbering);
+let deletedItems = numbering.splice(0,1,1,2,3,"this is not okay");
+deletedItems.push("e");
+console.log(deletedItems);
 console.log(numbering);
+
+

@@ -15,8 +15,8 @@
 
 // fill method
 
-const numbers = [80,81];
-const fill = numbers.fill(100,0,2);
+const numbers = [80,81,0,0,0,0];
+const fill = numbers.fill(100,2,numbers.length-1);
 console.log(numbers);
 // console.log(Array.isArray(fill));
 // const myArray = new Array(20).fill("Jam Al")

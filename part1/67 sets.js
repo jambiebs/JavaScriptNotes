@@ -71,16 +71,44 @@
 
 
 // // sets
-const numbers = [6,10,5,5,5,2,2,2,9,6,9,9,3,3,10,3,4,4,4];
-console.log(numbers.length);
-const uniqueNumber = new Set(numbers);
-uniqueNumber.add(588);
-uniqueNumber.delete(588);
-console.log(uniqueNumber);
-uniqueNumber.forEach((x)=>{
-    console.log(x-x);
-})
-console.log(uniqueNumber.has(5));
-console.log(uniqueNumber.size);
-uniqueNumber
+// const numbers = [6,10,5,5,5,2,2,2,9,6,9,9,3,3,10,3,4,4,4];
+// console.log(numbers.length);
+// const uniqueNumber = new Set(numbers);
+// uniqueNumber.add(588);
+// uniqueNumber.delete(588);
+// console.log(uniqueNumber);
+// uniqueNumber.forEach((x)=>{
+//     console.log(x-x);
+// })
+// console.log(uniqueNumber.has(5));
+// console.log(uniqueNumber.size);
+// uniqueNumber
+
+// let array = [2,3,4,5,9];
+// let obj = {hello: "world"};
+// let nestedobj = [
+//     {userName:"jambiebs",pass: 24246120},
+//     {userName:"jambiebs1",pass: 24246121}
+// ];
+// const uni = new Set();
+// uni.add("jamal");
+// uni.add(array);
+// uni.add(obj);
+// uni.add(nestedobj);
+
+// console.log(uni);
+console.log("hello");
+
+
+
+
+
+
+
+
+
+
+
+
+
 
