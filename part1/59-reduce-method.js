@@ -1,20 +1,19 @@
-// // // reduce 
+// // // reduce
 // // // const numbers = [1,2,3,4,5, 10];
 
-// // // aim : sum of all the numbers in array 
+// // // aim : sum of all the numbers in array
 
 // // // const sum = numbers.reduce((accumulator, currentValue)=>{
 // // //     return accumulator + currentValue;
 // // // }, 100);
 
 // // // console.log(sum);
-// // // accumulator , currentValue,  return 
-// // // 1               2              3 
+// // // accumulator , currentValue,  return
+// // // 1               2              3
 // // // 3               3              6
 // // // 6               4              10
 // // // 10              5              15
 // // // 15              10             25
-
 
 // // // const userCart = [
 // // //     {productId: 1, productName: "mobile", price: 12000},
@@ -28,17 +27,10 @@
 
 // // // console.log(totalAmount);
 
-// // // total price      currentValue     return 
+// // // total price      currentValue     return
 // // // 0                12000                12000
 // // // 12000            22000                34000
 // // // 34000            15000                49000
-
-
-
-
-
-
-
 
 // // // practice
 // // // const numbers = [1, 2, 3, 4, 5];
@@ -47,8 +39,6 @@
 // // //     return accumulator + currentvalue;
 // // // }, 0)
 // // // console.log(sum);
-
-
 
 // // const myCart = [
 // //     { productId: 1, productName: "samsung tv", price: 3000 },
@@ -77,18 +67,11 @@
 // // }
 // // console.log(myCart.reduce((cartValue2), 0));  // 0 is initial value
 
-
 // // const newSumValue = [86,45,2,55,8,645,166,541];
 // // const newsum = newSumValue.reduce((a,b)=>{
 // //     return a+b;
 // // });
 // // console.log(newsum);
-
-
-
-
-
-
 
 // const numbers = [100,200,300,400];
 // const sum = numbers.reduce((x,y)=>{
@@ -96,10 +79,7 @@
 // });
 // console.log(sum);
 
-
-
 // reduce method
-
 
 // const userCart = [
 //     {item:"motherboard",Price:6000},
@@ -129,24 +109,24 @@
 // sum(...add); // expected output 37500
 
 const myCart = [
-        { productId: 1, productName: "samsung tv", price: 32000 },
-        { productId: 2, productName: "samsung mobile", price: 23000 },
-        { productId: 3, productName: "samsung earphone", price: 2000 },
-        { productId: 4, productName: "samsung charger", price: 1500 },
-        { productId: 5, productName: "samsung lapatop", price: 80000 },
-        { productId: 6, productName: "samsung watch", price: 6000 },
-        { productId: 7, productName: "samsung sd card", price: 3000 }
-    ]
-    
-    // let finalPrice = myCart.reduce((accumulator,currV)=>{
-    //     return accumulator + currV.price;
-    // },0);
-    // console.log(finalPrice);
-    // let total = 0;
-    // for(let i in myCart){
-    //     total += myCart[i].price;
-    // }
-    // console.log(total);
+  { productId: 1, productName: "samsung tv", price: 32000 },
+  { productId: 2, productName: "samsung mobile", price: 23000 },
+  { productId: 3, productName: "samsung earphone", price: 2000 },
+  { productId: 4, productName: "samsung charger", price: 1500 },
+  { productId: 5, productName: "samsung lapatop", price: 80000 },
+  { productId: 6, productName: "samsung watch", price: 6000 },
+  { productId: 7, productName: "samsung sd card", price: 3000 },
+];
+
+// let finalPrice = myCart.reduce((accumulator,currV)=>{
+//     return accumulator + currV.price;
+// },0);
+// console.log(finalPrice);
+// let total = 0;
+// for(let i in myCart){
+//     total += myCart[i].price;
+// }
+// console.log(total);
 
 // const array = [5,10,15,20,25,30,35,40,45,50];
 
@@ -156,28 +136,35 @@ const myCart = [
 // }
 // console.log(total);
 
-
 // free delivery on order above 500 Rupees
 
 let userCart = [
-    {productId:0, productName:"P1",price:49},
-    {productId:1, productName:"P2",price:59},
-    {productId:2, productName:"P3",price:79},
-    {productId:3, productName:"P4",price:40},
-    {productId:4, productName:"P4",price:99},
-    {productId:5, productName:"P5",price:49},
-    {productId:6, productName:"P6",price:82},
-    {productId:7, productName:"P7",price:39}
-]
+  { productId: 0, productName: "P1", price: 49 },
+  { productId: 1, productName: "P2", price: 59 },
+  { productId: 2, productName: "P3", price: 79 },
+  { productId: 3, productName: "P4", price: 40 },
+  { productId: 4, productName: "P4", price: 99 },
+  { productId: 5, productName: "P5", price: 49 },
+  { productId: 6, productName: "P6", price: 82 },
+  { productId: 7, productName: "P7", price: 45 },
+];
 
-let totalPrice = userCart.reduce((x,y)=>{
-    return x+y.price;
-},0);
-if(totalPrice>=500){
-    console.log("Great! Your are eligible for free delivery.");
-    console.log(`Your Total Amount is ${totalPrice} rupees. Proceed to Checkout!`);
-}else {
-    console.log(`your total cart value is less then 500 Rupees. please add item/items worth rupees ${500-totalPrice} to become eligible for free delivery.`)
-    console.log("OR");
-    console.log("You can pay delivery charges of 99 rupees and continue with your current selection.")
+let totalPrice = userCart.reduce((x, y) => {
+  return x + y.price;
+}, 0);
+if (totalPrice >= 500) {
+  console.log("Great! Your are eligible for free delivery.");
+  console.log(
+    `Total Payable Amount is ${totalPrice} rupees. Please Proceed to Checkout!`
+  );
+} else {
+  console.log(
+    `your total cart value is less then 500 Rupees. please add item/items worth rupees ${
+      500 - totalPrice
+    } to become eligible for free delivery.`
+  );
+  console.log("OR");
+  console.log(
+    "You can pay delivery charges of 99 rupees and continue with your current selection."
+  );
 }

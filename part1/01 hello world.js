@@ -16,3 +16,7 @@
 // console.log('hello world!');
 
 console.log("this is practice for windows");
+
+
+let num = 12345;
+console.log(num.valueOf());

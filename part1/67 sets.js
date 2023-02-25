@@ -97,8 +97,12 @@
 // uni.add(nestedobj);
 
 // console.log(uni);
-console.log("hello");
+// console.log("hello");
 
+
+let newSet = new Set();
+newSet.add(obj1);
+console.log(newSet);
 
 
 

@@ -35,39 +35,7 @@
 //     console.log(user.firstName);
 // }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // custom code by --jamal
-
-
 
 // practice
 
@@ -243,7 +211,6 @@
 
 
 let array = [5,10,20,40,80,160];
-
-let fiveminus = array.forEach((v, i, a)=>{
-    console.log(`number ${v} is at the index of ${i} of array ${a}`);
+let minusTwo = array.forEach((v,i)=>{
+    console.log(`Serial No: ${i+1} => value of ${v} after subtraction by '2' is ${v-2}`);
 })

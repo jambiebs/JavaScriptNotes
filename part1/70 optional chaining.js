@@ -12,7 +12,7 @@
 
 
 // // what is optional chaining?
-// // suppose i have an object that contain nothing. it date is relied on user input so while coding you'll have to leave it blank but at the time of code execution it can show error. to get rid of this problem we use optional chaining. 
+// // suppose i have an object that contain nothing. it data is relied on user input so while coding you'll have to leave it blank but at the time of code execution it can show error. to get rid of this problem we use optional chaining. 
 // // optional chaining is nothing but use of question mark(?). 
 // // if we write ? in statement then it will be like "check if the given variable exist if exist then return the value if doesn't exit then return undefined".
 // // To understand more about this topic, see the example below--
