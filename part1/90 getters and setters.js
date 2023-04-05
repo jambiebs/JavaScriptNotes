@@ -1,26 +1,26 @@
 // // // // getter and setters 
-class Person{
-    constructor(firstName, lastName, age){
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.age = age;
-    }
-    get fullName(){
-        return `${this.firstName} ${this.lastName}`
-    }
-    set fullName(fullName){
-        const [firstName, lastName] = fullName.split(" ");
-        this.firstName = firstName;
-        this.lastName = lastName;
-    }
-}
+// class Person{
+//     constructor(firstName, lastName, age){
+//         this.firstName = firstName;
+//         this.lastName = lastName;
+//         this.age = age;
+//     }
+//     get fullName(){
+//         return `${this.firstName} ${this.lastName}`
+//     }
+//     set fullName(fullName){
+//         const [firstName, lastName] = fullName.split(" ");
+//         this.firstName = firstName;
+//         this.lastName = lastName;
+//     }
+// }
 
 
-const person1 = new Person("harshit", "sharma", 5);
-// // console.log(person1.fullName());
-// // console.log(person1.fullName);
-person1.fullName = "mohit vashistha";
-console.log(person1.fullName);
+// const person1 = new Person("harshit", "sharma", 5);
+// // // console.log(person1.fullName());
+// // // console.log(person1.fullName);
+// person1.fullName = "mohit vashistha";
+// console.log(person1.fullName);
 
 
 
@@ -107,3 +107,47 @@ console.log(person1.fullName);
 //   console.log(circle.radius); // output: 20
 //   console.log(circle._diameter); // output: 60
   
+
+// split
+let userName = "Vikas Kumar Verma";
+let [firstName, middleName, lastName] = userName.split(" ");
+// console.log(middleName);
+
+
+class Person{
+    constructor(firstName, lastName, age){
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.age = age;
+    }
+    static classInfo(){
+        return "This class is the example of how to a differnt name on already declared name."
+    }
+     /**
+      * @param {string} fullName
+      */
+    set fullName(fullName){
+        const [firstName, middleName, lastName] = fullName.split(" ")
+        this.firstName = firstName;
+        this.middleName = middleName;
+        this.lastName = lastName;
+    }
+}
+
+let customer2 = new Person("Manoj", "Trivedi", 25);
+customer2.fullName = "Md JamalUddin Ansari"
+console.log(customer2.firstName);
+console.log(customer2.middleName); // returns undefined why?
+console.log(customer2.lastName);
+// console.log(customer2.classInfo()); // you cannot call this method using consturctor;
+console.log(Person.classInfo()); // this is static method and only can be called with className;
+
+
+
+
+
+
+
+
+
+

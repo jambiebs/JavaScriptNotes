@@ -6,3 +6,6 @@ var myFunction = function(){
 }
 
 console.log(myFunction);
+
+// undefined
+// function

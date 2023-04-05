@@ -68,3 +68,35 @@
 // console.log(pet2.petcolor());
 // console.log(pet2.isCute());
 // console.log(pet2.isSuperCute);
+
+
+class Product {
+    constructor(brand,price){
+        this.brand = brand;
+        this.price = price;
+    }
+    affordable(){
+        return this.price<2000;
+    }
+    detail(){
+        return `${this.brand} is the best product in term of quality that cost you only ${this.price} INR`
+    }
+}
+
+let earpod = new Product("Mivi", 1800); 
+console.log(earpod);
+console.log(earpod.affordable());
+console.log(earpod.detail());
+
+class Samsung extends Product{
+    constructor(brand,price,type){
+        super(brand,price);
+        this.type = type;
+    }
+    detail(){
+        return `${this.brand} is the best ${this.type} in term of sound quality that cost you only ${this.price} INR`
+    }
+}
+let samsung = new Samsung("samsung",2100, "Earpod");
+console.log(samsung.detail());
+console.log(samsung.affordable());

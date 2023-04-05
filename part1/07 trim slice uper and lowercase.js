@@ -100,3 +100,8 @@ const uname3 = "JAMALUDDIN";
 const lowercase = uname3.toLowerCase();
 console.log(uname3);
 console.log(lowercase);
+
+
+// trim slice upercase lowercase
+let myname = " jamal ";
+console.log(myname.slice(-3));

@@ -42,4 +42,4 @@ const uname = "my name is md jamaluddin ansari"
 for(let index in uname){
     console.log(index);
 }
-console.log(uname[28]);
+console.log(uname[25]);

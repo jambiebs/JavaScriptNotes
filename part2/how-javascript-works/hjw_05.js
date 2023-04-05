@@ -7,4 +7,8 @@ const myFunction = function() {
     let var2 = "second Variable";
     console.log(var1);
     console.log(var2);
+    console.log(firstName);
+    console.log(lastName);
 }
+
+// hellow world

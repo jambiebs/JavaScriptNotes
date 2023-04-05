@@ -98,3 +98,23 @@ const bind2 = testData.bind(applyTest2,"bind3","test4"); // do not use squarebra
 bind1();
 bind2();
 // bind has same function like apply difference is this that it returns a function instead of calling so we store it in a variable and can call it whenever required;
+
+// // apply
+// function iritated(greeting, statement){
+//     console.log(`${greeting} ${this.name} ${statement}`);
+// }
+// let obj = {name: "John"};
+
+// iritated.apply(obj, ["yaarr!", "bahut hua Hello world!"]);
+// // Hint: "apply" = kon call kar raha hai?, ["kya", "kya", "....", "kya apply karna hai?"]
+// // so in apply you can pass arguments as an array but in call you can only pass a string;
+
+// call
+// function sayHello(greeting,exclaim, gali) {
+//     console.log(greeting + exclaim + ' ' + gali + ' ' + this.name);
+//   }
+  
+//   const person = { name: 'John' };
+  
+//   sayHello.call(person, 'Hello', '!!!', "bhosdiwale"); // logs "Hello John"
+  

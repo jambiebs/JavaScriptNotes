@@ -120,3 +120,5 @@ const uname2 = [1,2,6,8,6,5,84,4545,];
 console.log(typeof uname2);
 console.log(Array.isArray(uname2));
 
+
+

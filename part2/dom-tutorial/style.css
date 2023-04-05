@@ -54,6 +54,9 @@ a {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+.btn.btn-headline a {
+  color: black;
+}
 
 .btn {
   display: inline-block;

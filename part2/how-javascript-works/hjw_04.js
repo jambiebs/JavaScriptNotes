@@ -15,3 +15,6 @@
 // console.log(typeof firstName);
 
 // let firstName = "harshit";
+
+console.log(firstname); // uncaught refrence error, cannot access firstname before initialization;
+let firstname = "jamal";

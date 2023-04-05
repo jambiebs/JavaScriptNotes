@@ -1,0 +1,32 @@
+// this extra chapter is added to make notes about How JavaScript works
+
+#. JavaScript Proccess
+=> compilation phase => 1.tokenising => 2.parsing 3.code execution phase => 1.memory creation 2.code execution => 1.global execution => 1.function execution
+
+#. while in the process of global memory creation (global execution context) memory will be created as follows:-
+    window will be created;
+    this = window;
+    var variable = undefined;
+    let variable = uninitialized;
+    const variable = uninitialized;
+    function declearation = function();
+    function expression(var) = undefined;
+    function expression(let) = uninitialized;
+    function expression(const) = uninitialized
+
+    // uninitialized variables will throw an error if we try to access it in uninitialized state;
+    // function expression will be treated as variable;
+
+#. while in the process of local memory createion (function execution context) memory will be created as follows:- 
+    argument = [x,y]; // an array like object will be created;
+    x = (provided value);
+    y = (provided value);
+    var variable = undefined;
+    let variable = uninitialized;
+    const variable = uninitialized;
+    function declearation = function();
+    function expression(var) = undefined;
+    function expression(let) = uninitialized;
+    function expression(const) = uninitialized
+
+

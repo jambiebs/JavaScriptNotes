@@ -61,3 +61,15 @@
 //     navItem.style.fontWeight = "bold";
 // })
 // console.log(navItems);
+// let multipleItems = document.querySelectorAll("ul.nav-items a");
+// for(let i = 0; i<multipleItems.length; i++){
+//     multipleItems[i].style.color= "black";
+// }
+let multipleItems2 = document.querySelectorAll("h1.logo, h2#main-heading, button.btn.btn-headline, button.btn.btn-headline a, ul.nav-items a, header.header");
+console.log(multipleItems2);
+for(let i = 0; i<multipleItems2.length; i++){
+    multipleItems2[i].style.color= "black";
+    multipleItems2[0].style.background = "white";
+    multipleItems2[6].style.background = "white";
+
+}

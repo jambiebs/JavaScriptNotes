@@ -31,8 +31,8 @@ const userC = {
     }
 }
 
-// const detail = userC.about;
-// detail();
+const detail = userC.about.bind(userC);
+detail();
 // why the above line is not working? lets find out by below example;
 // const detail = function(){
     // console.log(`Username is "${this.userName}" and password is "${this.password}"`);
@@ -40,5 +40,5 @@ const userC = {
 // detail();
 // output of both 'detail()' mentioned above is same; so you can understand that both arguments are same atleast javascritp is understanding it same. it is not binding 'userC' with 'detail', so we have to bind it properly otherwise it will return window/global object; lets see how to bind it;
 
-const detail = userC.about.bind(userC);
-detail();   
+// const detail = userC.about.bind(userC);
+// detail();   

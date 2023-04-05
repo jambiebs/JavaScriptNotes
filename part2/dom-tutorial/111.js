@@ -17,5 +17,17 @@
 // // console.log(head);
 // const title = head.querySelector("title");
 // console.log(title.childNodes);
-const container = document.querySelector(".container");
-console.log(container.children);
+// const container = document.querySelector(".container");
+// console.log(container.children);
+
+const rootNode = document.getRootNode();
+console.log(rootNode);
+let rootNode1 = rootNode.childNodes;
+
+// let rootNode2 = rootNode1.childNodes;
+// let rootNode3 = rootNode2.childNodes;
+// let rootNode4 = rootNode3.childNodes;
+// let rootNode5 = rootNode4.childNodes;
+// let rootNode6 = rootNode5.childNodes;
+// let rootNode7 = rootNode6.childNodes;
+

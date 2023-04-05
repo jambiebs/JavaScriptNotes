@@ -26,17 +26,46 @@
 
 // __proto__
 // proto is a refrence of another object; 
-const one = {
-    id1 : "one", 
-    id2 : "two",
-    id3 : "three"
-}
-const two = Object.create(one);
-two.id4 = "four";
+// const one = {
+//     id1 : "one", 
+//     id2 : "two",
+//     id3 : "three"
+// }
+// const two = Object.create(one);
+// two.id4 = "four";
 
-console.log(two["id1"]);
-console.log(two);
-console.log(one);
+// console.log(two["id1"]);
+// console.log(two);
+// console.log(one);
+
+
+let obj1 = {
+    a: 1, 
+    b: 2
+}
+let obj2 = new Object(obj1);
+obj2.c = 3;
+// let obj2 = {
+//     c: 3
+// }
+console.log(obj2.c);
+console.log(obj2.a);
+console.log(obj2.__proto__);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

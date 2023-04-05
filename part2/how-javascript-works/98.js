@@ -38,7 +38,12 @@
 //         return number ** power;
 //     }
 // }
-const myfunc1 = (power)=>number=>number**power;
-const square = myfunc1(3);
-const cube = square(5);
-console.log(cube);
+
+function func1(fname, lname){
+    function func2(){
+        console.log(fname, lname);
+    }
+    return func2;
+}
+let fullName = func1("Jam", "Al");
+fullName();
