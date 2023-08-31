@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FAQ to JSON-LD Generator</title>
+<style>
+  /* Add your CSS styling here */
+</style>
+</head>
+<body>
+<div id="faqContainer">
+  <!-- Add your FAQ code here -->
+  <details class="containerfaq">
+    <summary class="customfaq">What are the types of FUD?</summary>
+    <div>
+      <p>FUD comes in three forms: fear-driven, uncertainty-related, and doubt-based, each affecting market behavior differently.</p>
+    </div>
+  </details>
+  <details class="containerfaq">
+    <summary class="customfaq">How can traders identify FUD?</summary>
+    <div>
+      <p>Distinguish between genuine concerns and FUD by evaluating sources, cross-referencing information, and considering motives behind negative news.</p>
+    </div>
+  </details>
+  <details class="containerfaq">
+    <summary class="customfaq">How does FUD affect markets?</summary>
+    <div>
+      <p>FUD triggers panic selling, causing rapid price drops and market volatility.</p>
+    </div>
+  </details>
+  <details class="containerfaq">
+    <summary class="customfaq">What strategies manage FUD?</summary>
+    <div>
+      <p>Stay informed through reliable sources, diversify portfolios, maintain a long-term perspective, and counter FUD with transparent communication and accurate information.</p>
+    </div>
+  </details><br />
+  <!-- Add more FAQ items here -->
+</div>
+
+<div id="jsonLdOutput">
+  <h2>Generated JSON-LD Markup:</h2>
+  <pre id="jsonLdCode"></pre>
+</div>
+
+<script>
+  function generateJsonLd() {
+    const detailsElements = document.querySelectorAll('.containerfaq');
+
+    const faqData = {
+      '@context': 'https://schema.org',
+      '@type': 'FAQPage',
+      'mainEntity': []
+    };
+
+    detailsElements.forEach((details) => {
+      const question = details.querySelector('.customfaq').textContent;
+      const answer = details.querySelector('p').textContent;
+
+      const questionObject = {
+        '@type': 'Question',
+        'name': question,
+        'acceptedAnswer': {
+          '@type': 'Answer',
+          'text': answer
+        }
+      };
+
+      faqData.mainEntity.push(questionObject);
+    });
+
+    const jsonLdCode = JSON.stringify(faqData, null, 2);
+    document.getElementById('jsonLdCode').textContent = jsonLdCode;
+  }
+
+  // Call the function when the page loads
+  generateJsonLd();
+</script>
+</body>
+</html>
