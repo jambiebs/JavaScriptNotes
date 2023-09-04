@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Table</title>
+</head>
+<body style="font-family: Arial, sans-serif;">
+    <div style="max-width: 800px; margin: 0 auto; padding: 20px; text-align: center;">
+        <h1>Dynamic Table</h1>
+        <!-- Separate div for the table -->
+        <div id="tableContainer">
+            <table id="myTable" style="width: 100%; border-collapse: collapse;">
+                <thead>
+                    <tr>
+                        <th style="border: 1px solid #ccc; padding: 8px;">Column 1</th>
+                        <th style="border: 1px solid #ccc; padding: 8px;">Column 2</th>
+                        <th style="border: 1px solid #ccc; padding: 8px;">Column 3</th>
+                        <th style="border: 1px solid #ccc; padding: 8px;">Column 4</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Rows will be added dynamically here -->
+                </tbody>
+            </table>
+        </div>
+        <!-- Separate div for the buttons -->
+        <div id="buttonContainer">
+            <button id="addRow" style="padding: 10px 20px; background-color: #007bff; color: #fff; border: none; cursor: pointer; margin-top: 10px;">Add Row</button>
+            <button id="generateCode" style="padding: 10px 20px; background-color: #FF5722; color: #fff; border: none; cursor: pointer; margin-top: 10px;">Generate Code</button>
+        </div>
+        <!-- Display area for generated code -->
+        <div id="generatedCode" style="margin-top: 20px;"></div>
+    </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const table = document.getElementById("myTable");
+            const tbody = table.querySelector("tbody");
+            const addRowButton = document.getElementById("addRow");
+            const generateCodeButton = document.getElementById("generateCode");
+
+            addRowButton.addEventListener("click", function () {
+                const newRow = document.createElement("tr");
+                for (let i = 0; i < table.rows[0].cells.length - 1; i++) {
+                    newRow.innerHTML += `
+                        <td contenteditable="true" style="border: 1px solid #ccc; padding: 8px;">New Data</td>
+                    `;
+                }
+                newRow.innerHTML += `<td><button class="delete" style="padding: 5px 10px; background-color: #ff4444; color: #fff; border: none; cursor: pointer;">Delete</button></td>`;
+                tbody.appendChild(newRow);
+
+                // Add event listener to the delete button
+                const deleteButton = newRow.querySelector(".delete");
+                deleteButton.addEventListener("click", function () {
+                    tbody.removeChild(newRow);
+                });
+            });
+
+            generateCodeButton.addEventListener("click", function () {
+                const tableClone = document.getElementById("tableContainer").cloneNode(true);
+
+                // Remove the buttons div from the cloned table container
+                const buttonsDiv = tableClone.querySelector("#buttonContainer");
+                tableClone.removeChild(buttonsDiv);
+
+                // Modify the style of the table for inline CSS
+                const tableElement = tableClone.querySelector("table");
+                tableElement.style.borderCollapse = "collapse";
+                tableElement.style.width = "100%";
+
+                const rows = Array.from(tableElement.querySelectorAll("tr"));
+                rows.forEach((row) => {
+                    const cells = Array.from(row.cells);
+                    cells.forEach((cell) => {
+                        cell.style.border = "1px solid #ccc";
+                        cell.style.padding = "8px";
+                    });
+                });
+
+                // Generate the HTML code with inline CSS
+                const htmlCode = tableClone.outerHTML;
+
+                // Display the generated code on the webpage
+                const generatedCodeDiv = document.getElementById("generatedCode");
+                generatedCodeDiv.innerHTML = htmlCode;
+            });
+        });
+    </script>
+</body>
+</html>
